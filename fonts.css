@@ -9,12 +9,12 @@
 /* Load our custom font file */
 @font-face {
   font-family: 'HelveticaNeueLT Pro';
-  src: url('helvetica-neue/helveticaneueltprolt.eot');
-  src: url('helvetica-neue/helveticaneueltprolt.eot?#iefix') format('embedded-opentype'),
-       url('helvetica-neue/helveticaneueltprolt.otf') format('opentype'),
-       url('helvetica-neue/helveticaneueltprolt.woff') format('woff'),
-       url('helvetica-neue/helveticaneueltprolt.ttf') format('truetype'),
-       url('helvetica-neue/helveticaneueltprolt.svg#HelveticaNeueLTPro-Lt') format('svg');
+  src: url('helveticaneueltprolt.eot');
+  src: url('helveticaneueltprolt.eot?#iefix') format('embedded-opentype'),
+       url('helveticaneueltprolt.otf') format('opentype'),
+       url('helveticaneueltprolt.woff') format('woff'),
+       url('helveticaneueltprolt.ttf') format('truetype'),
+       url('helveticaneueltprolt.svg#HelveticaNeueLTPro-Lt') format('svg');
   font-weight: normal;
   font-style: normal;
 }

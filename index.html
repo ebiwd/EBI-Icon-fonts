@@ -113,10 +113,8 @@
                   </div>
                 </li>
                 <li class="float-right show-for-medium embl-selector">
-                  <button class="button" type="button" data-toggle="embl-dropdown">Hinxton</button>
-                  <div id="embl-dropdown" class="dropdown-pane" data-dropdown data-options="closeOnClick:true;">
-                    to come.
-                  </div>
+                  <button class="button float-right" type="button" data-toggle="embl-dropdown">Hinxton</button>
+                  <!-- The dropdown menu will be programatically added by script.js -->
                 </li>
               </ul>
             </div>
@@ -128,16 +126,15 @@
 
           <!-- local-title -->
           <div class="columns medium-7" id="local-title">
-            <h1><a href="[service-url]" title="Back to [service-name] homepage"><div class="hexagon"><i class="icon icon-generic" data-icon=":"></i></div> EBI Framework</a></h1>
+            <h1><a href="[service-url]" title="Back to [service-name] homepage">EBI Framework</a></h1>
           </div>
           <!-- /local-title -->
 
           <!-- local-nav -->
               <nav >
                 <ul class="dropdown menu float-left" data-description="navigational" data-dropdown-menu>
-                  <li class=""><a href="documentation.html">Overview</a></li>
-                  <li><a data-open="modal-download">Download</a></li>
-                  <li><a href="#">Support <i class="icon icon-generic" data-icon="x"></i></a></li>
+                  <li class=""><a href="https://ebiwd.github.io/EBI-Pattern-library">Overview</a></li>
+                  <li class="active"><a href="#">Icon fonts</a></li>
                 </ul>
                 <ul class="menu dropdown float-right" data-dropdown-menu data-description="functional">
                   <li class="functional"><a href="#"><i class="icon icon-generic" data-icon="d"></i> Share this</a>
@@ -177,16 +174,6 @@
       </div>
   </div>
 
-  <div class="reveal" id="modal-download" data-reveal>
-    <h2>Awesome. I Have It.</h2>
-    <p class="lead">Your couch. It is mine.</p>
-    <p>I'm a cool paragraph that lives inside of an even cooler modal. Wins!</p>
-    <a class="button">Download</a>
-    <button class="close-button" data-close aria-label="Close modal" type="button">
-      <span aria-hidden="true">&times;</span>
-    </button>
-  </div>
-
   <div id="content" role="main" class="row">
 
       <!-- Suggested layout containers -->
@@ -207,8 +194,8 @@
           <div class="medium-12 columns">
 
             <h2>EBI Framework font icons</h2>
-            <span class="secondary label sans-serif float-right"><i class="icon icon-generic" data-icon="i"></i> Framework version: 1.1</span>
-            <p class="lead">For more information on using fonts with the EMBL-EBI Framework and making the most of the framework, <a class="readmore" href="../index.html">see the full documentaion</a></p>
+            <span class="tag secondary-background float-right margin-left-large"><i class="icon icon-generic" data-icon="i"></i> Framework version: 1.1</span>
+            <p class="lead">For more information on using fonts with the EMBL-EBI Visual Framework and making the most of the framework, <a class="readmore" href="https://ebiwd.github.io/EBI-Pattern-library/">see the pattern library</a></p>
 
             <hr />
 
@@ -217,7 +204,7 @@
 
                 <h2>Icons</h2>
 
-                <p>The <code>fonts.css</code> stylesheet automatically loads a range of icon fonts that you can use.</p>
+                <p>When you load the <code>fonts.css</code> stylesheet you automatically gain access to a range of icon fonts.</p>
 
                 <p>Icons are added automatically through CSS using the <code>:before</code> feature in CSS, so they will appear before whatever piece of text you associate them with. To make this association, you need to include particular class and data-icon attributes in the relevant HTML element: e.g. <code>&lt;h4&gt;&lt;span class="icon icon-generic" data-icon="4"&gt;&lt;/span&gt; Travel by plane&lt;/h4&gt;</code>.</p>
 

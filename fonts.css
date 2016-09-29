@@ -104,9 +104,6 @@ html.fontface .icon {
   font-style: normal;
   text-rendering: optimizeLegibility !important;
 }
-html.fontface  .icon:before {
-  padding-right: .25rem;
-}
 html.fontface  i.icon-conceptual,
 html.fontface  input.icon-conceptual,
 html.fontface  .icon-conceptual:before {
@@ -195,5 +192,3 @@ html.fontface  h3.icon-chemistry,
 html.fontface  h3.icon-fileformats,
 html.fontface  h3.icon-generic { font-family: 'helvetica', sans-serif; }
  */
-
-

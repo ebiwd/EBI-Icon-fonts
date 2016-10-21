@@ -1,0 +1,18 @@
+{
+  "name": "EBI-Icon-fonts",
+  "description": "A collection of functional and scientific icons",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ebiwd/EBI-Icon-fonts.git"
+  },
+  "author": {
+    "name": "EBI Web Development",
+    "email": "khawkins@ebi.ac.uk",
+    "url": "https://github.com/ebiwd"
+  }
+}
+
+
+

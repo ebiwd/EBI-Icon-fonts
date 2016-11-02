@@ -99,6 +99,8 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/* General .icon support  */
 html.fontface .icon {
   text-decoration: none;
   font-style: normal;
@@ -149,6 +151,9 @@ html.fontface  .icon-chemistry:before {
   font-family: 'EBI-Chemistry';
   content: attr(data-icon);
 }
+
+/* icon utility class */
+html.fontface .icon.icon-spacer:before { padding-right: .5rem; }
 
 /* Custom colouring from some globally-used icons */
 html.fontface .icon-c1:before { color: #dac79d; }  /* DNA & RNA */

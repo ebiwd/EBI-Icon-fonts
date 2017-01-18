@@ -193,27 +193,40 @@
 
           <div class="medium-12 columns">
 
-            <h2>EBI Framework font icons</h2>
-            <span class="tag secondary-background float-right margin-left-large"><i class="icon icon-generic" data-icon="i"></i> Framework version: 1.1</span>
-            <p class="lead">For more information on using fonts with the EMBL-EBI Visual Framework and making the most of the framework, <a class="readmore" href="https://ebiwd.github.io/EBI-Pattern-library/">see the pattern library</a></p>
+            <h2>EMBL-EBI Framework font icons</h2>
 
-            <div class="callout">
-              <h3><i class="icon icon-generic padding-right-medium" data-icon="i"></i>Have a wish for the EBI Icon fonts?</h3>
-              <p>If you're interested in making improvements to the technical delivery and usage of the EBI Icon fonts.</p>
-              <p><a href="https://github.com/ebiwd/EBI-Icon-fonts/issues/6" class="readmore">Learn more</a></p>
-            </div>
+            <section id="intro" class="row" data-magellan-target="intro">
 
-            <section id="icons" data-magellan-target="icons">
 
-              <p>Icons are added by the <code>fonts.css</code> file with <code>:before</code> pseudo elements, so they will appear before whatever piece of text you associate them with. To make this association, you need to include particular class and data-icon attributes in the relevant HTML element: e.g. <code>&lt;h4&gt;&lt;i class="icon icon-generic" data-icon="4"&gt;&lt;/i&gt; Travel by plane&lt;/h4&gt;</code>.</p>
+              <div class="medium-9 columns">
+                <p>EMBL-EBI has produced a robust set of icon fonts that represent actions and things common in our field, like databases; actions, like uploading; concepts, like gene expression; or platforms, like e-mail or Twitter.</p>
 
-              <h4><i class="icon icon-generic icon-spacer" data-icon="4"></i>A plane is a nice demo icon</h4>
+                <p>If you're in need of an icon for a squirrel, bucket, or something useful: contact Spencer Phillips at spencer[at]ebi.ac.uk</p>
 
-              <p>The web browser will read the data-icon parameter and use the icon pictogram corresponding to "4".</p>
+                <h3>A few tech notes</h3>
 
-              <p>The EBI Visual framework no longer adds automatic padding to icons (in most scenarios), if you want to add padding, use the <a href="https://ebiwd.github.io/EBI-Pattern-library/patterns/helper-classes/">helper classes</a> or add <code>.icon-spacer</code> to the <code>.icon</code>'s element.
+                <ul>
+                  <li>In summer 2017 expect improved the EBI Icon fonts to include SVG support and an optimised delivery package.</li>
+                  <li>Use these icons by referencing the <code>//www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/v1.1/fonts.css</code> file. </li>
+                  <li>To make the icons appear, you need to include particular class and data-icon attributes in the relevant HTML element:
+                    <p><code>&lt;strong&gt;&lt;i class="icon icon-generic" data-icon="4"&gt;&lt;/i&gt; This is an example icon&lt;/strong&gt;</code></p>
+                    <p>The browser's CSS parser will read the data-icon parameter and use the icon pictogram corresponding to "4":</p>
+                    <p><strong><i class="icon icon-generic" data-icon="4"></i> This is an example icon</strong></p>
+                  </li>
+                  <li>The EBI Visual framework no longer adds automatic padding to icons (in most scenarios), if you want to add padding, use the <a href="https://ebiwd.github.io/EBI-Pattern-library/patterns/helper-classes/">helper classes</a> or add <code>.icon-spacer</code> to the <code>.icon</code>'s element.</li>
+                </ul>
 
-              <p>We do not recommend using PNG images as they offer inferior performance and inferior support for high resolution screens.</p>
+                <p>Need help? Head <a href="https://github.com/ebiwd/EBI-Icon-fonts/issues" class="readmore">to the issue queue</a></p>
+              </div>
+
+              <div class="callout medium-3 columns"><i class="icon icon-generic padding-right-medium" data-icon="i"></i>For more information on using fonts with the EMBL-EBI Visual Framework and making the most of the framework, <a class="readmore" href="https://ebiwd.github.io/EBI-Pattern-library/">view the EBI Pattern Library</a></div>
+            </section>
+          
+            <section id="icons" class="" data-magellan-target="icons">
+
+              
+
+
 
               <!-- Include live filtering -->
               <script defer src="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/libraries/LiveFilter/js/jquery.liveFilter.js"></script>
@@ -222,14 +235,14 @@
                   $(document).ready(function() {
                     $('#thegallery').liveFilter({
                       fitlerTargetCustomDiv: 'tbody tr',
-                      defaultText: 'Search for an icon',
+                      defaultText: '',
                       noMatches: ''
                     });
                   });
                 }
               </script>
 
-              <div class="row" id="thegallery">
+              <div class="" id="thegallery">
                 <div class="columns medium-3" data-sticky-container>
                   <div class="sticky" data-sticky data-sticky-on="medium" data-top-anchor="thegallery" data-btm-anchor="thegallery:bottom" data-margin-top="3">
                     <ul class="menu vertical" data-magellan>
@@ -237,7 +250,7 @@
                       <!-- <label class="">Type to filter these paper references</label> -->
                       <div class="input-group">
                         <span class="input-group-label"><i data-icon="1" class="icon icon-functional"></i></span>
-                        <input class="filter clearable input-group-field" type="text" value="" />
+                        <input class="filter clearable input-group-field" type="text" value="" placeholder="Filter these icons" />
                       </div>
                       <!-- <input class="reset" type="reset" value="ddd" /> -->
 
@@ -546,27 +559,6 @@
 
             </section>
 
-            <section id="help" data-magellan-target="help">
-              <h2>Need help?</h2>
-
-              <div class="row">
-
-                <div class="columns medium-6">
-
-                  <p>This style guide is supported by the "Style Council", to whom you can go for help, advice and guidance. [link to council members]</p>
-
-                  <p>Also check out the issue queue [LINK].</p>
-
-                </div>
-
-                <div class="columns callout success sans-serif medium-6">
-                  <h5>Want to offer help?</h5>
-                  Get in touch, or subscribe to the issue queue, collaboration and pull requests welcome!
-                </div>
-
-              </div>
-
-            </section>
 
           </div>
 
@@ -584,11 +576,11 @@
 
     <footer>
       <!-- Optional local footer (insert citation / project-specific copyright / etc here -->
-      <div id="local-footer">
+      <!-- <div id="local-footer">
         <div class="row">
           <span class="reference">How to reference this page: ...</span>
         </div>
-      </div>
+      </div> -->
       <!-- End optional local footer -->
 
       <div id="global-footer">

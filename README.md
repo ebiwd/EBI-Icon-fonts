@@ -2,7 +2,7 @@
 The <code>fonts.css</code> stylesheet automatically loads a range of icon fonts that you can use.
 
 ## View the gallery
-View all the icons at [www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/v1.1/](http://www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/v1.1/)
+[View all the icons at this gallery](http://www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/v1.1/).
 
 ## Help us make these icons better
 The Web Guidelines Committee is reviewing how the icons are bundled and how they are delivered to developers, so if you want SVGs, smaller sizes, or PNGs: ask for by [adding a comment to this issue](https://github.com/ebiwd/EBI-Icon-fonts/issues/6).

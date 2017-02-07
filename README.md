@@ -17,3 +17,4 @@ Icons are added automatically through CSS using the <code>:before</code> feature
 - Releases are homed at http://www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/
 - You can load the default CSS by linking to the v1.1 release at http://www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/v1.1/fonts.css
 - NPM users can get the code from https://www.npmjs.com/package/EBI-Icon-fonts
+- React users that are working with the EBI Species icons should check out https://github.com/wbazant/react-ebi-species

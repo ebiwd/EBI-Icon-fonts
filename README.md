@@ -11,7 +11,7 @@ Icons are added automatically through CSS using the <code>:before</code> feature
 The Web Guidelines Committee is reviewing how the icons are bundled and how they are delivered to developers, so if you want SVGs, smaller sizes, or PNGs: ask for by [adding a comment to this issue](https://github.com/ebiwd/EBI-Icon-fonts/issues/6).
 
 # Need a new icon?
-If you're in need of an icon for a squirrel, bucket, or something useful: contact Spencer Phillips at spencer[at]ebi.ac.uk
+If you're in need of an icon for a squirrel, bucket, or something useful: [use this form](https://docs.google.com/a/ebi.ac.uk/forms/d/e/1FAIpQLSe7_lFbhVdt-AJeGQChjkiab642nDkfKTVoNQRosPAKuBP3_g/viewform?c=0&w=1).
 
 # Including these fonts in your project
 - Releases are homed at [www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/](https://www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts)

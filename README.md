@@ -14,7 +14,7 @@ If you're in need of an icon for a squirrel, bucket, or something useful: contac
 Icons are added automatically through CSS using the <code>:before</code> feature in CSS, so they will appear before whatever piece of text you associate them with. To make this association, you need to include particular class and data-icon attributes in the relevant HTML element: e.g. <code>&lt;h4&gt;&lt;span class="icon icon-generic" data-icon="4"&gt;&lt;/span&gt; Travel by plane&lt;/h4&gt;</code>.
 
 ## Including these fonts in your project
-- Releases are homed at [www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/](https://www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/v1.1/fonts.css)
+- Releases are homed at [www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/](https://www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts)
 - You can load the default CSS by linking to the v1.1 release at [www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/v1.1/fonts.css](https://www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/v1.1/fonts.css)
 - NPM users can get the code from [npmjs.com/package/EBI-Icon-fonts](https://www.npmjs.com/package/EBI-Icon-fonts)
 - React users that are working with the EBI Species icons should check out [wbazant/react-ebi-species](https://github.com/wbazant/react-ebi-species)

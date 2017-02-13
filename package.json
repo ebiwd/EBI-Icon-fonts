@@ -11,8 +11,8 @@
     "name": "EBI Web Development",
     "email": "khawkins@ebi.ac.uk",
     "url": "https://github.com/ebiwd"
+  },
+  "devDependencies": {
+    "grunt-grunticon": "^2.3.1"
   }
 }
-
-
-

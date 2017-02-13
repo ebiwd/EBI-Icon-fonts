@@ -79,99 +79,99 @@
 }
 
 /* General .icon support  */
-html.fontface .icon {
+.icon {
   text-decoration: none;
   font-style: normal;
   text-rendering: optimizeLegibility !important;
 }
-html.fontface  i.icon-conceptual,
-html.fontface  input.icon-conceptual,
-html.fontface  .icon-conceptual:before {
+i.icon-conceptual,
+input.icon-conceptual,
+.icon-conceptual:before {
   font-family: 'EBI-Conceptual';
   font-size: 138.5%;
   content: attr(data-icon);
 }
-html.fontface  i.icon-functional,
-html.fontface  input.icon-functional,
-html.fontface  .icon-functional:before {
+i.icon-functional,
+input.icon-functional,
+.icon-functional:before {
   font-family: 'EBI-Functional';
   content: attr(data-icon);
 }
-/*html.fontface  .icon-static:before,*/ /* deprecated, included for back-compatibility */
-html.fontface  i.icon-generic,
-html.fontface  input.icon-generic,
-html.fontface  .icon-generic:before {
+/*.icon-static:before,*/ /* deprecated, included for back-compatibility */
+i.icon-generic,
+input.icon-generic,
+.icon-generic:before {
   font-family: 'EBI-Generic';
   content: attr(data-icon);
 }
-html.fontface  i.icon-species,
-html.fontface  input.icon-species,
-html.fontface  .icon-species:before {
+i.icon-species,
+input.icon-species,
+.icon-species:before {
   font-family: 'EBI-Species';
   content: attr(data-icon);
 }
-html.fontface  i.icon-socialmedia,
-html.fontface  input.icon-socialmedia,
-html.fontface  .icon-socialmedia:before {
+i.icon-socialmedia,
+input.icon-socialmedia,
+.icon-socialmedia:before {
   font-family: 'EBI-SocialMedia';
   content: attr(data-icon);
 }
-html.fontface  i.icon-fileformats,
-html.fontface  input.icon-fileformats,
-html.fontface  .icon-fileformats:before {
+i.icon-fileformats,
+input.icon-fileformats,
+.icon-fileformats:before {
   font-family: 'EBI-FileFormats';
   font-size: 123.1%;
   content: attr(data-icon);
 }
-html.fontface  i.icon-chemistry,
-html.fontface  input.icon-chemistry,
-html.fontface  .icon-chemistry:before {
+i.icon-chemistry,
+input.icon-chemistry,
+.icon-chemistry:before {
   font-family: 'EBI-Chemistry';
   content: attr(data-icon);
 }
 
 /* icon utility class */
-html.fontface .icon.icon-spacer:before { padding-right: .5rem; }
+.icon.icon-spacer:before { padding-right: .5rem; }
 
 /* Custom colouring from some globally-used icons */
-html.fontface .icon-c1:before { color: #dac79d; }  /* DNA & RNA */
-html.fontface .icon-c2:before { color: #dab7e2; }  /* Gene expression */
-html.fontface .icon-c3:before { color: #62d0df; }  /* Proteins */
-html.fontface .icon-c4:before { color: #afc9b8; }  /* Structures */
-html.fontface .icon-c5:before { color: #ffb4aa; }  /* Systems */
-html.fontface .icon-c6:before { color: #ffc999; }  /* Chem bio */
-html.fontface .icon-c7:before { color: #bec3d9; }  /* Ontologies */
-html.fontface .icon-c8:before { color: #c5d4a3; }  /* Literature & patents */
-html.fontface .icon-c9:before { color: #a4c7e2; }  /* Cross-domain */
-html.fontface .icon-s1:before { color: #3b5998; }  /* Facebook */
-html.fontface .icon-s2:before { color: #55acee; }  /* Twitter */
-html.fontface .icon-s3:before { color: #007bb6; }  /* LinkedIn */
-html.fontface .icon-s4:before { color: #ff6600; }  /* Blogger */
-html.fontface .icon-s5:before { color: #a6c83f; }  /* Orcid */
-html.fontface .icon-s6:before { color: #dd4b39; }  /* Google+ */
-html.fontface .icon-s7:before { color: #bb0000; }  /* YouTube */
-html.fontface .icon-s8:before { color: #f40083; }  /* Flikr */
-html.fontface .icon-s9:before { color: #1ab7ea; }  /* Vimeo */
-html.fontface .icon-s10:before { color: #00bcf2; }  /* Windows */
-html.fontface .icon-s11:before { color: #f7941e; }  /* SlideShare */
-html.fontface .icon-s12:before { color: #21759b; }  /* Wordpress */
-html.fontface .icon-s13:before { color: #fa9b39; }  /* RSS */
+.icon-c1:before { color: #dac79d; }  /* DNA & RNA */
+.icon-c2:before { color: #dab7e2; }  /* Gene expression */
+.icon-c3:before { color: #62d0df; }  /* Proteins */
+.icon-c4:before { color: #afc9b8; }  /* Structures */
+.icon-c5:before { color: #ffb4aa; }  /* Systems */
+.icon-c6:before { color: #ffc999; }  /* Chem bio */
+.icon-c7:before { color: #bec3d9; }  /* Ontologies */
+.icon-c8:before { color: #c5d4a3; }  /* Literature & patents */
+.icon-c9:before { color: #a4c7e2; }  /* Cross-domain */
+.icon-s1:before { color: #3b5998; }  /* Facebook */
+.icon-s2:before { color: #55acee; }  /* Twitter */
+.icon-s3:before { color: #007bb6; }  /* LinkedIn */
+.icon-s4:before { color: #ff6600; }  /* Blogger */
+.icon-s5:before { color: #a6c83f; }  /* Orcid */
+.icon-s6:before { color: #dd4b39; }  /* Google+ */
+.icon-s7:before { color: #bb0000; }  /* YouTube */
+.icon-s8:before { color: #f40083; }  /* Flikr */
+.icon-s9:before { color: #1ab7ea; }  /* Vimeo */
+.icon-s10:before { color: #00bcf2; }  /* Windows */
+.icon-s11:before { color: #f7941e; }  /* SlideShare */
+.icon-s12:before { color: #21759b; }  /* Wordpress */
+.icon-s13:before { color: #fa9b39; }  /* RSS */
 
 
 /* Compatibility with legacy compliance theme.
    RWD framework now uses i.icon-functionality spec. */
-/* html.fontface  a.icon-conceptual,
-html.fontface  a.icon-functional,
-html.fontface  a.icon-species,
-html.fontface  a.socialmedia,
-html.fontface  a.icon-chemistry,
-html.fontface  a.icon-fileformats,
-html.fontface  a.icon-generic,
-html.fontface  h3.icon-conceptual,
-html.fontface  h3.icon-functional,
-html.fontface  h3.icon-species,
-html.fontface  h3.socialmedia,
-html.fontface  h3.icon-chemistry,
-html.fontface  h3.icon-fileformats,
-html.fontface  h3.icon-generic { font-family: 'helvetica', sans-serif; }
+/* a.icon-conceptual,
+a.icon-functional,
+a.icon-species,
+a.socialmedia,
+a.icon-chemistry,
+a.icon-fileformats,
+a.icon-generic,
+h3.icon-conceptual,
+h3.icon-functional,
+h3.icon-species,
+h3.socialmedia,
+h3.icon-chemistry,
+h3.icon-fileformats,
+h3.icon-generic { font-family: 'helvetica', sans-serif; }
  */

@@ -6,35 +6,27 @@
   text-decoration: none;
   font-style: normal;
   text-rendering: optimizeLegibility !important;
+  background-size: contain;
 }
 input.icon-conceptual,
-.icon-conceptual:before {
-  font-size: 138.5%;
-  content: attr(data-icon);
-}
+.icon-conceptual:before,
 input.icon-functional,
-.icon-functional:before {
-  content: attr(data-icon);
-}
+.icon-functional:before,
 input.icon-generic,
-.icon-generic:before {
-  content: attr(data-icon);
-}
+.icon-generic:before,
 input.icon-species,
-.icon-species:before {
-  content: attr(data-icon);
-}
+.icon-species:before,
 input.icon-socialmedia,
-.icon-socialmedia:before {
+.icon-socialmedia:before,
+input.icon-fileformats,
+.icon-fileformats:before,
+input.icon-chemistry,
+.icon-chemistry:before {
   content: attr(data-icon);
 }
 input.icon-fileformats,
 .icon-fileformats:before {
   font-size: 123.1%;
-  content: attr(data-icon);
-}
-input.icon-chemistry,
-.icon-chemistry:before {
   content: attr(data-icon);
 }
 

@@ -415,7 +415,7 @@ module.exports = function(grunt) {
             'CRAM': 0x0052,
             'CML': 0x0043,
             'BAM': 0x0042,
-            'AGB': 0x0041
+            'AGP': 0x0041
           }
         }
       },

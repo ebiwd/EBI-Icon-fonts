@@ -595,23 +595,14 @@ module.exports = function(grunt) {
         debug: true,
         src: [
           'templates/index.html'
-          // 'EBI-Chemistry/fonts/EBI-Chemistry.html',
-          // 'EBI-Conceptual/fonts/EBI-Conceptual.html',
-          // 'EBI-FileFormats/fonts/EBI-FileFormats.html',
-          // 'EBI-Generic/fonts/EBI-Generic.html',
-          // 'EBI-SocialMedia/fonts/EBI-SocialMedia.html',
-          // 'EBI-Species/fonts/EBI-Species.html'
         ],
         dest: '.', // Destination directory
         flatten: true,
         cwd: '.',
         options: {
-          // includeRegexp: '/^(\s*)include\s+"(\S+)"\s*$/',
-          // template: 'EBI-Chemistry/fonts/EBI-Chemistry.html',
           // silent: true,
           banner: '<!-- I am a banner <% includes.files.dest %> -->',
           includePath: [
-            // 'templates/master-template.html'
             'EBI-Chemistry/fonts/',
             'EBI-Conceptual/fonts/',
             'EBI-FileFormats/fonts/',

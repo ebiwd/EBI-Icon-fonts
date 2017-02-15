@@ -3,11 +3,11 @@
 
 @font-face {
 	font-family:"EBI-Species";
-	src:url("EBI-Species.eot?9c49d2c8fac019dbeba86bde67c5d889");
+	src:url("EBI-Species.eot?536e4e616a12600cc3cae08181ee3414");
 	src:url("EBI-Species.eot?#iefix") format("embedded-opentype"),
-		url("EBI-Species.woff?9c49d2c8fac019dbeba86bde67c5d889") format("woff"),
-		url("EBI-Species.ttf?9c49d2c8fac019dbeba86bde67c5d889") format("truetype"),
-		url("EBI-Species.svg?9c49d2c8fac019dbeba86bde67c5d889#EBI-Species") format("svg");
+		url("EBI-Species.woff?536e4e616a12600cc3cae08181ee3414") format("woff"),
+		url("EBI-Species.ttf?536e4e616a12600cc3cae08181ee3414") format("truetype"),
+		url("EBI-Species.svg?536e4e616a12600cc3cae08181ee3414#EBI-Species") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }

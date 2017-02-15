@@ -341,7 +341,7 @@ module.exports = function(grunt) {
             'target': 0x0054,
             'tool': 0x0074,
             'unassigned-job': 0x002a,
-            'undo': 0x005a,
+            'undo': 0x007b,
             'unlock': 0x0055,
             'view': 0x0034,
             'zoom-in': 0x0033,

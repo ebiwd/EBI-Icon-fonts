@@ -165,15 +165,25 @@ module.exports = function(grunt) {
             classPrefix: 'icon-'
           },
           codepoints: {
-            'chemical': 0x0062,
-            'cross': 0x0063,
-            'dna': 0x0064,
-            'expression': 0x0067,
-            'literature': 0x006c,
-            'ontology': 0x006f,
-            'proteins': 0x0050,
-            'structures': 0x0073,
-            'systems': 0x0079
+						'android': 0x0061,
+						'apple': 0x0041,
+						'blogger': 0x0042,
+						'facebook': 0x0046,
+						'flickr': 0x0066,
+						'github': 0x0067,
+						'googleplus': 0x0047,
+						'linkedin': 0x004c,
+						'linux': 0x0058,
+						'orcid': 0x004f,
+						'rss': 0x0052,
+						'skype': 0x0073,
+						'slideshare': 0x0053,
+						'twitter': 0x0054,
+						'vimeo': 0x0056,
+						'weibo': 0x0057,
+						'windows': 0x0077,
+						'wordpress': 0x0050,
+						'youtube': 0x0059
           }
         }
       },
@@ -431,7 +441,7 @@ module.exports = function(grunt) {
         }
       }
     },
-    // 3. Make the PNGs 
+    // 3. Make the PNGs
     //    (and compiled CSS files for poteintal future use)
     grunticon: {
       chemistry: {

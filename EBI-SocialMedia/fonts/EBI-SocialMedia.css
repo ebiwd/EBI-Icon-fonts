@@ -3,17 +3,16 @@
 
 @font-face {
 	font-family:"EBI-SocialMedia";
-	src:url("EBI-SocialMedia.eot?3c6e5fb1fa83e8999a8686718357ae57");
+	src:url("EBI-SocialMedia.eot?2dec4fe62ccf9d5bf6206df7fce2fb89");
 	src:url("EBI-SocialMedia.eot?#iefix") format("embedded-opentype"),
-		url("EBI-SocialMedia.woff2?3c6e5fb1fa83e8999a8686718357ae57") format("woff2"),
-		url("EBI-SocialMedia.woff?3c6e5fb1fa83e8999a8686718357ae57") format("woff"),
-		url("EBI-SocialMedia.ttf?3c6e5fb1fa83e8999a8686718357ae57") format("truetype"),
-		url("EBI-SocialMedia.svg?3c6e5fb1fa83e8999a8686718357ae57#EBI-SocialMedia") format("svg");
+		url("EBI-SocialMedia.woff?2dec4fe62ccf9d5bf6206df7fce2fb89") format("woff"),
+		url("EBI-SocialMedia.ttf?2dec4fe62ccf9d5bf6206df7fce2fb89") format("truetype"),
+		url("EBI-SocialMedia.svg?2dec4fe62ccf9d5bf6206df7fce2fb89#EBI-SocialMedia") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
 
-.icon-social {
+.icon-socialmedia {
 	
 		font-family:"EBI-SocialMedia";
 	

@@ -3,12 +3,11 @@
 
 @font-face {
 	font-family:"EBI-Conceptual";
-	src:url("EBI-Conceptual.eot?a4e1ad09e80eb50017ca19d516e86332");
+	src:url("EBI-Conceptual.eot?e725781ad989bafaf811e38a11228aba");
 	src:url("EBI-Conceptual.eot?#iefix") format("embedded-opentype"),
-		url("EBI-Conceptual.woff2?a4e1ad09e80eb50017ca19d516e86332") format("woff2"),
-		url("EBI-Conceptual.woff?a4e1ad09e80eb50017ca19d516e86332") format("woff"),
-		url("EBI-Conceptual.ttf?a4e1ad09e80eb50017ca19d516e86332") format("truetype"),
-		url("EBI-Conceptual.svg?a4e1ad09e80eb50017ca19d516e86332#EBI-Conceptual") format("svg");
+		url("EBI-Conceptual.woff?e725781ad989bafaf811e38a11228aba") format("woff"),
+		url("EBI-Conceptual.ttf?e725781ad989bafaf811e38a11228aba") format("truetype"),
+		url("EBI-Conceptual.svg?e725781ad989bafaf811e38a11228aba#EBI-Conceptual") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }

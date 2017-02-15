@@ -3,12 +3,11 @@
 
 @font-face {
 	font-family:"EBI-FileFormats";
-	src:url("EBI-FileFormats.eot?c4bfe762170f91ff21528149d87489f6");
+	src:url("EBI-FileFormats.eot?d5afaec2a0dc7e980282566c0ea9695a");
 	src:url("EBI-FileFormats.eot?#iefix") format("embedded-opentype"),
-		url("EBI-FileFormats.woff2?c4bfe762170f91ff21528149d87489f6") format("woff2"),
-		url("EBI-FileFormats.woff?c4bfe762170f91ff21528149d87489f6") format("woff"),
-		url("EBI-FileFormats.ttf?c4bfe762170f91ff21528149d87489f6") format("truetype"),
-		url("EBI-FileFormats.svg?c4bfe762170f91ff21528149d87489f6#EBI-FileFormats") format("svg");
+		url("EBI-FileFormats.woff?d5afaec2a0dc7e980282566c0ea9695a") format("woff"),
+		url("EBI-FileFormats.ttf?d5afaec2a0dc7e980282566c0ea9695a") format("truetype"),
+		url("EBI-FileFormats.svg?d5afaec2a0dc7e980282566c0ea9695a#EBI-FileFormats") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }

@@ -1,5 +1,7 @@
 var path = require('path');
 
+var version = '1.2'; // the version from the git repo branch
+
 module.exports = function(grunt) {
 	'use strict';
 
@@ -77,6 +79,7 @@ module.exports = function(grunt) {
         dest: 'EBI-Species/fonts',
         // destCss: 'EBI-Species',
         options: {
+					version: version,
           font: 'EBI-Species',
           fontFamilyName: 'EBI-Species',
           fontFilename: 'EBI-Species',
@@ -85,6 +88,7 @@ module.exports = function(grunt) {
             baseClass: 'icon-species',
             classPrefix: 'icon-'
           },
+					htmlDemoTemplate: 'templates/template-webfont.html',
           codepoints: {
             'ferret': 0x0021,
             'bee': 0x0024,
@@ -156,14 +160,16 @@ module.exports = function(grunt) {
         dest: 'EBI-SocialMedia/fonts',
         // destCss: 'EBI-SocialMedia',
         options: {
+					version: version,
           font: 'EBI-SocialMedia',
           fontFamilyName: 'EBI-SocialMedia',
           fontFilename: 'EBI-SocialMedia',
           types: 'eot,woff,ttf,svg',
           templateOptions: {
-            baseClass: 'icon-social',
+            baseClass: 'icon-socialmedia',
             classPrefix: 'icon-'
           },
+					htmlDemoTemplate: 'templates/template-webfont.html',
           codepoints: {
 						'android': 0x0061,
 						'apple': 0x0041,
@@ -192,6 +198,7 @@ module.exports = function(grunt) {
         dest: 'EBI-Generic/fonts',
         // destCss: 'EBI-Generic',
         options: {
+					version: version,
           font: 'EBI-Generic',
           fontFamilyName: 'EBI-Generic',
           fontFilename: 'EBI-Generic',
@@ -200,6 +207,7 @@ module.exports = function(grunt) {
             baseClass: 'icon-generic',
             classPrefix: 'icon-'
           },
+					htmlDemoTemplate: 'templates/template-webfont.html',
           codepoints: {
             'accommodation': 0x0061,
             'alert': 0x006c,
@@ -278,6 +286,7 @@ module.exports = function(grunt) {
         dest: 'EBI-Functional/fonts',
         // destCss: 'EBI-Functional',
         options: {
+					version: version,
           font: 'EBI-Functional',
           fontFamilyName: 'EBI-Functional',
           fontFilename: 'EBI-Functional',
@@ -286,6 +295,7 @@ module.exports = function(grunt) {
             baseClass: 'icon-functional',
             classPrefix: 'icon-'
           },
+					htmlDemoTemplate: 'templates/template-webfont.html',
           codepoints: {
             'add': 0x002b,
             'add-job': 0x0029,
@@ -354,6 +364,7 @@ module.exports = function(grunt) {
         dest: 'EBI-Conceptual/fonts',
         // destCss: 'EBI-Conceptual',
         options: {
+					version: version,
           font: 'EBI-Conceptual',
           fontFamilyName: 'EBI-Conceptual',
           fontFilename: 'EBI-Conceptual',
@@ -362,6 +373,7 @@ module.exports = function(grunt) {
             baseClass: 'icon-conceptual',
             classPrefix: 'icon-'
           },
+					htmlDemoTemplate: 'templates/template-webfont.html',
           codepoints: {
             'chemical': 0x0062,
             'cross-domain': 0x0063,
@@ -380,6 +392,7 @@ module.exports = function(grunt) {
         dest: 'EBI-FileFormats/fonts',
         // destCss: 'EBI-FileFormats',
         options: {
+					version: version,
           font: 'EBI-FileFormats',
           fontFamilyName: 'EBI-FileFormats',
           fontFilename: 'EBI-FileFormats',
@@ -388,6 +401,7 @@ module.exports = function(grunt) {
             baseClass: 'icon-fileformats',
             classPrefix: 'icon-'
           },
+					htmlDemoTemplate: 'templates/template-webfont.html',
           codepoints: {
             'ZIP': 0x005a,
             'Postscript': 0x0033,
@@ -424,6 +438,7 @@ module.exports = function(grunt) {
         dest: 'EBI-Chemistry/fonts',
         // destCss: 'EBI-Chemistry',
         options: {
+					version: version,
           font: 'EBI-Chemistry',
           fontFamilyName: 'EBI-Chemistry',
           fontFilename: 'EBI-Chemistry',
@@ -432,6 +447,7 @@ module.exports = function(grunt) {
             baseClass: 'icon-chemistry',
             classPrefix: 'icon-'
           },
+					htmlDemoTemplate: 'templates/template-webfont.html',
           codepoints: {
             'direction_unknown': 0x0055,
             'direction_right': 0x0072,

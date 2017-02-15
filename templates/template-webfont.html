@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+	<head>
+		<script src="//www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/js/injectEBIFramework.js"></script>
+	  <script type="text/javascript">injectEBIFramework();</script>
+	  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://wwwdev.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/v1.2/fonts.css" type="text/css" media="all">
+		<meta charset="utf-8">
+		<title><%= fontFamilyName %></title>
+	</head>
+	<body>
+    <table class="responsive-table">
+      <thead>
+        <tr>
+          <th class="small-5" id="<%= fontFamilyName %>" data-magellan-target="<%= fontFamilyName %>"><%= fontFamilyName %> <% if (version) { %><small>version <%= version %></small><% } %></th>
+          <th class="small-1"></th>
+          <th class="small-6 kbd small">HTML</th>
+          <th class="show-for-large kbd small">Drupal</th>
+        </tr>
+      </thead>
+      <tbody>
+				<% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { var glyph = glyphs[glyphIdx] %>
+					<% var charcode = '&#x' + codepoints[glyphIdx] %>
+					<tr>
+						<td><%= glyph %></td>
+						<td><span class="<%= baseClass %> <%= classPrefix %>" data-icon="<%= charcode %>">	</span></td>
+						<td>&lt;* class="icon <%= baseClass %>" data-icon="<%= charcode %>"&gt;</td>
+						<td>[<%= baseClass %>:<%= charcode %>]</td>
+					</tr>
+				<% } %>
+      </tbody>
+    </table>
+
+
+
+	</body>
+</html>

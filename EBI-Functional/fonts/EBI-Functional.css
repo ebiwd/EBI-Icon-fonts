@@ -3,12 +3,12 @@
 
 @font-face {
 	font-family:"EBI-Functional";
-	src:url("EBI-Functional.eot?3705441e81c73db592e58275576f4966");
+	src:url("EBI-Functional.eot?307e655233d7cb3775842f781074a066");
 	src:url("EBI-Functional.eot?#iefix") format("embedded-opentype"),
-		url("EBI-Functional.woff2?3705441e81c73db592e58275576f4966") format("woff2"),
-		url("EBI-Functional.woff?3705441e81c73db592e58275576f4966") format("woff"),
-		url("EBI-Functional.ttf?3705441e81c73db592e58275576f4966") format("truetype"),
-		url("EBI-Functional.svg?3705441e81c73db592e58275576f4966#EBI-Functional") format("svg");
+		url("EBI-Functional.woff2?307e655233d7cb3775842f781074a066") format("woff2"),
+		url("EBI-Functional.woff?307e655233d7cb3775842f781074a066") format("woff"),
+		url("EBI-Functional.ttf?307e655233d7cb3775842f781074a066") format("truetype"),
+		url("EBI-Functional.svg?307e655233d7cb3775842f781074a066#EBI-Functional") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }

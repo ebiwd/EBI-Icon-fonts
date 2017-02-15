@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>EBI Icon fonts &lt; EBI Visual Framework &lt; EMBL-EBI</title>
+  <meta name="description" content="EMBL-EBI"><!-- Describe what this page is about -->
+  <meta name="keywords" content="bioinformatics, institute, fonts, icons, framework"><!-- A few keywords that relate to the content of THIS PAGE (not the whol project) -->
+  <meta name="author" content="EMBL-EBI"><!-- Your [project-name] here -->
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="MobileOptimized" content="width" />
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#70BDBD"> <!-- Android Chrome mobile browser tab color -->
+
+  <!-- Add information on the life cycle of this page -->
+  <meta name="ebi:owner" content="EBI Web Development"> <!-- Who should be contacted about changes -->
+  <meta name="ebi:review-cycle" content="60"> <!-- In days, how often should the content be reviewed -->
+  <meta name="ebi:last-review" content="2016-11-02"> <!-- The last time the content was reviewed -->
+  <meta name="ebi:expiry" content="2018-06-01"> <!-- When this content is no longer relevant -->
+
+  <!-- If you link to any other sites frequently, consider optimising performance with a DNS prefetch -->
+  <!-- <link rel="dns-prefetch" href="//embl.de" /> -->
+
+  <!-- If you have custom icon, replace these as appropriate.
+       You can generate them at realfavicongenerator.net -->
+  <link rel="icon" type="image/x-icon" href="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/images/logos/EMBL-EBI/favicons/favicon.ico" />
+  <link rel="icon" type="image/png" href="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/images/logos/EMBL-EBI/favicons/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="192×192" href="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/images/logos/EMBL-EBI/favicons/android-chrome-192x192.png" /> <!-- Android (192px) -->
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/images/logos/EMBL-EBI/favicons/apple-icon-114x114.png"> <!-- For iPhone 4 Retina display (114px) -->
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/images/logos/EMBL-EBI/favicons/apple-icon-72x72.png"> <!-- For iPad (72px) -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/images/logos/EMBL-EBI/favicons/apple-icon-144x144.png"> <!-- For iPad retinat (144px) -->
+  <link rel="apple-touch-icon-precomposed" href="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/images/logos/EMBL-EBI/favicons/apple-icon-57x57.png"> <!-- For iPhone (57px) -->
+  <link rel="mask-icon" href="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/images/logos/EMBL-EBI/favicons/safari-pinned-tab.svg" color="#ffffff"> <!-- Safari icon for pinned tab -->
+  <meta name="msapplication-TileColor" content="#2b5797"> <!-- MS Icons -->
+  <meta name="msapplication-TileImage" content="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/images/logos/EMBL-EBI/favicons/mstile-144x144.png">
+
+  <!-- CSS: implied media=all -->
+  <!-- CSS concatenated and minified via ant build script-->
+  <link rel="stylesheet" href="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/libraries/foundation-6/css/foundation.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/css/ebi-global.css" type="text/css" media="all">
+  <link rel="stylesheet" href="https://wwwdev.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/v1.2/fonts.css" type="text/css" media="all">
+
+  <!-- Use this CSS file for any custom styling -->
+  <!--
+    <link rel="stylesheet" href="css/custom.css" type="text/css" media="all">
+  -->
+
+  <!-- If you have a custom header image or colour -->
+  <!--
+  <meta name="ebi:localmasthead-color" content="#000">
+  -->
+  <meta name="ebi:localmasthead-image" content="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/images/backgrounds/embl-ebi-background-4.jpg">
+
+    <!-- you can replace this with theme-[projectname].css. See http://www.ebi.ac.uk/web/style/colour for details of how to do this -->
+  <!-- also inform ES so we can host your colour palette file -->
+  <link rel="stylesheet" href="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/css/theme-embl-petrol.css" type="text/css" media="all">
+
+  <!-- for production the above can be replaced with -->
+  <!--
+  <link rel="stylesheet" href="//www.ebi.ac.uk/web_guidelines/css/compliance/mini/ebi-fluid-embl.css">
+  -->
+
+  <!-- end CSS-->
+
+
+  <!-- All JavaScript at the bottom, except for Modernizr -->
+  <script src="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/libraries/modernizr/modernizr.custom.49274.js"></script>
+
+</head>
+
+<body class="level2"><!-- add any of your classes or IDs -->
+  <div id="skip-to">
+    <ul>
+      <li><a href="#content">Skip to main content</a></li>
+      <li><a href="#local-nav">Skip to local navigation</a></li>
+      <li><a href="#global-nav">Skip to EBI global navigation menu</a></li>
+      <li><a href="#global-nav-expanded">Skip to expanded EBI global navigation menu (includes all sub-sections)</a></li>
+    </ul>
+  </div>
+
+  <div data-sticky-container>
+    <div id="local-masthead" data-sticky data-sticky-on="large" data-top-anchor="180" data-btm-anchor="300000">
+      <header>
+
+        <div id="global-masthead" class="clearfix">
+          <!--This has to be one line and no newline characters-->
+          <a href="//www.ebi.ac.uk/" title="Go to the EMBL-EBI homepage"><span class="ebi-logo"></span></a>
+
+          <nav>
+            <div class="row">
+              <ul id="global-nav" class="menu">
+                <!-- set active class as appropriate -->
+                <li id="home-mobile" class=""><a href="//www.ebi.ac.uk"></a></li>
+                <li id="home" class="active"><a href="//www.ebi.ac.uk"><i class="icon icon-generic" data-icon="H"></i> EMBL-EBI</a></li>
+                <li id="services"><a href="//www.ebi.ac.uk/services"><i class="icon icon-generic" data-icon="("></i> Services</a></li>
+                <li id="research"><a href="//www.ebi.ac.uk/research"><i class="icon icon-generic" data-icon=")"></i> Research</a></li>
+                <li id="training"><a href="//www.ebi.ac.uk/training"><i class="icon icon-generic" data-icon="t"></i> Training</a></li>
+                <li id="about"><a href="//www.ebi.ac.uk/about"><i class="icon icon-generic" data-icon="i"></i> About us</a></li>
+                <li id="search">
+                  <a href="#" data-toggle="search-global-dropdown"><i class="icon icon-functional" data-icon="1"></i> <span class="show-for-small-only">Search</span></a>
+                  <div id="search-global-dropdown" class="dropdown-pane" data-dropdown data-options="closeOnClick:true;">
+                    <form id="global-search" name="global-search" action="/ebisearch/search.ebi" method="GET">
+                      <fieldset>
+                        <div class="input-group">
+                          <input type="text" name="query" id="global-searchbox" class="input-group-field" placeholder="Search all of EMBL-EBI">
+                          <div class="input-group-button">
+                            <input type="submit" name="submit" value="Search" class="button">
+                            <input type="hidden" name="db" value="allebi" checked="checked">
+                            <input type="hidden" name="requestFrom" value="global-masthead" checked="checked">
+                          </div>
+                        </div>
+                      </fieldset>
+                    </form>
+                  </div>
+                </li>
+                <li class="float-right show-for-medium embl-selector">
+                  <button class="button float-right" type="button" data-toggle="embl-dropdown">Hinxton</button>
+                  <!-- The dropdown menu will be programatically added by script.js -->
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+        </div>
+
+        <div class="masthead row">
+
+          <!-- local-title -->
+          <div class="columns medium-7" id="local-title">
+            <h1><a href="https://ebiwd.github.io/EBI-Pattern-library/" title="Back to EBI Visual framework">EBI Framework</a></h1>
+          </div>
+          <!-- /local-title -->
+
+          <!-- local-nav -->
+              <nav >
+                <ul class="dropdown menu float-left" data-description="navigational" data-dropdown-menu>
+                  <li class=""><a href="https://ebiwd.github.io/EBI-Pattern-library/">Framework overview</a></li>
+                  <li class="active"><a href="#">Icon fonts</a></li>
+                </ul>
+                <ul class="menu dropdown float-right" data-dropdown-menu data-description="functional">
+                  <li class="functional"><a href="#"><i class="icon icon-generic" data-icon="d"></i> Share this</a>
+                    <ul class="menu js">
+                      <li><a href="#">Item 1A Loooong</a></li>
+                      <li>
+                        <a href='#'> Item 1 sub</a>
+                        <ul class='menu'>
+                          <li><a href='#'>Item 1 subA</a></li>
+                          <li><a href='#'>Item 1 subB</a></li>
+                          <li>
+                            <a href='#'> Item 1 sub</a>
+                            <ul class='menu'>
+                              <li><a href='#'>Item 1 subA</a></li>
+                              <li><a href='#'>Item 1 subB</a></li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href='#'> Item 1 sub</a>
+                            <ul class='menu'>
+                              <li><a href='#'>Item 1 subA</a></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a href="#">Item 1B</a></li>
+                    </ul>
+
+                </ul>
+              </nav>
+          <!-- /local-nav -->
+
+        </div>
+
+      </header>
+
+      </div>
+  </div>
+
+  <div id="content" role="main" class="row">
+
+      <!-- Suggested layout containers -->
+      <section>
+
+        <!-- Your menu structure should make a breadcrumb redundant, but if a breadcrump is needed uncomment the below -->
+        <nav aria-label="You are here:" role="navigation">
+          <ul class="breadcrumbs">
+            <li><a href="../index.html">Overview</a></li>
+            <li>
+              <span class="show-for-sr">Current: </span> Font icons
+            </li>
+          </ul>
+        </nav>
+
+        <div class="row">
+
+          <div class="medium-12 columns">
+
+            <h2>EMBL-EBI Framework font icons</h2>
+
+            <section id="intro" class="row" data-magellan-target="intro">
+
+
+              <div class="medium-9 columns">
+                <p>EMBL-EBI has produced a robust set of icon fonts that represent actions and things common in our field, like databases; actions, like uploading; concepts, like gene expression; or platforms, like e-mail or Twitter.</p>
+
+                <p>If you're in need of an icon for a squirrel, bucket, or something useful: contact Spencer Phillips at spencer[at]ebi.ac.uk</p>
+
+                <h3>A few tech notes</h3>
+
+                <ul>
+                  <li>In summer 2017 expect improved the EBI Icon fonts to include SVG support and an optimised delivery package.</li>
+                  <li>Use these icons by referencing the <code>//www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/v1.2/fonts.css</code> file. </li>
+                  <li>To make the icons appear, you need to include particular class and data-icon attributes in the relevant HTML element:
+                    <p><code>&lt;strong&gt;&lt;i class="icon icon-generic" data-icon="4"&gt;&lt;/i&gt; This is an example icon&lt;/strong&gt;</code></p>
+                    <p>The browser's CSS parser will read the data-icon parameter and use the icon pictogram corresponding to "4":</p>
+                    <p><strong><i class="icon icon-generic" data-icon="4"></i> This is an example icon</strong></p>
+                  </li>
+                  <li>The EBI Visual framework no longer adds automatic padding to icons (in most scenarios), if you want to add padding, use the <a href="https://ebiwd.github.io/EBI-Pattern-library/patterns/helper-classes/">helper classes</a> or add <code>.icon-spacer</code> to the <code>.icon</code>'s element.</li>
+                </ul>
+
+                <p>Need help? Head <a href="https://github.com/ebiwd/EBI-Icon-fonts/issues" class="readmore">to the issue queue</a></p>
+              </div>
+
+              <div class="callout medium-3 columns"><i class="icon icon-generic padding-right-medium" data-icon="i"></i>For more information on using fonts with the EMBL-EBI Visual Framework and making the most of the framework, <a class="readmore" href="https://ebiwd.github.io/EBI-Pattern-library/">view the EBI Pattern Library</a></div>
+            </section>
+
+            <section id="icons" class="" data-magellan-target="icons">
+
+
+
+
+
+              <!-- Include live filtering -->
+              <script defer src="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/libraries/LiveFilter/js/jquery.liveFilter.js"></script>
+              <script type="text/javascript">
+                window.onload = function() {
+                  $(document).ready(function() {
+                    $('#thegallery').liveFilter({
+                      fitlerTargetCustomDiv: 'tbody tr',
+                      defaultText: '',
+                      noMatches: ''
+                    });
+                  });
+                }
+              </script>
+
+              <div class="" id="thegallery">
+                <div class="columns medium-3" data-sticky-container>
+                  <div class="sticky" data-sticky data-sticky-on="medium" data-top-anchor="thegallery" data-btm-anchor="thegallery:bottom" data-margin-top="3">
+                    <ul class="menu vertical" data-magellan>
+                      <h3>The gallery</h3>
+                      <!-- <label class="">Type to filter these paper references</label> -->
+                      <div class="input-group">
+                        <span class="input-group-label"><i data-icon="1" class="icon icon-functional"></i></span>
+                        <input class="filter clearable input-group-field" type="text" value="" placeholder="Filter these icons" />
+                      </div>
+                      <!-- <input class="reset" type="reset" value="ddd" /> -->
+
+                      <li><a href="#EBI-Generic">EBI-Generic</a></li>
+                      <li><a href="#EBI-Chemistry">EBI-Chemistry</a></li>
+                      <li><a href="#EBI-FileFormats">EBI-FileFormats</a></li>
+                      <li><a href="#EBI-Functional">EBI-Functional</a></li>
+                      <li><a href="#EBI-Species">EBI-Species</a></li>
+                      <li><a href="#EBI-Socialmedia">EBI-Socialmedia</a></li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div id="icon-font-rows" class="columns medium-9">
+                  include "EBI-Generic.html"
+                  include "EBI-Chemistry.html"
+                  include "EBI-Conceptual.html"
+                  include "EBI-FileFormats.html"
+                  include "EBI-Functional.html"
+                  include "EBI-Species.html"
+                  include "EBI-SocialMedia.html"
+
+
+
+                </div>
+              </div>
+
+
+            </section>
+
+
+          </div>
+
+
+
+        </div>
+
+
+
+      </section>
+      <!-- End suggested layout containers -->
+
+    </div>
+
+
+    <footer>
+      <!-- Optional local footer (insert citation / project-specific copyright / etc here -->
+      <!-- <div id="local-footer">
+        <div class="row">
+          <span class="reference">How to reference this page: ...</span>
+        </div>
+      </div> -->
+      <!-- End optional local footer -->
+
+      <div id="global-footer">
+
+        <nav id="global-nav-expanded" class="row">
+          <!-- Footer will be automatically inserted by footer.js -->
+        </nav>
+
+        <section id="ebi-footer-meta" class="row">
+          <!-- Footer meta will be automatically inserted by footer.js -->
+        </section>
+
+      </div>
+
+    </footer>
+  </div> <!--! end of #wrapper -->
+
+
+  <!-- JavaScript -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <!--
+  <script>window.jQuery || document.write('<script src="../js/libs/jquery-1.10.2.min.js"><\/script>')</script>
+  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <!-- Your custom JavaScript file scan go here... change names accordingly -->
+  <!--
+  <script defer="defer" src="//www.ebi.ac.uk/web_guidelines/js/plugins.js"></script>
+  <script defer="defer" src="//www.ebi.ac.uk/web_guidelines/js/script.js"></script>
+  -->
+  <script defer="defer" src="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/js/cookiebanner.js"></script>
+  <script defer="defer" src="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/js/foot.js"></script>
+  <script defer="defer" src="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/js/script.js"></script>
+
+  <!-- The Foundation theme JavaScript -->
+  <script src="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/libraries/foundation-6/js/foundation.js"></script>
+  <script src="https://www.ebi.ac.uk/web_guidelines/EBI-Framework/v1.1/js/foundationExtendEBI.js"></script>
+  <script type="text/JavaScript">$(document).foundation();</script>
+  <script type="text/JavaScript">$(document).foundationExtendEBI();</script>
+<!--
+   -->
+
+
+
+  <!-- Google Analytics details... -->
+  <!-- Change UA-XXXXX-X to be your site's ID -->
+  <!--
+  <script>
+    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+  </script>
+  -->
+
+</body>
+</html>

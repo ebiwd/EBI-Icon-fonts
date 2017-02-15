@@ -9,7 +9,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-webfont');
   grunt.loadNpmTasks('grunt-grunticon');
   grunt.loadNpmTasks('grunt-contrib-copy');
-
+	grunt.loadNpmTasks('grunt-includes');
 
   grunt.initConfig({
     // 1. We want to minify the source SVG icons
@@ -587,7 +587,43 @@ module.exports = function(grunt) {
           {expand: true, cwd: 'source/species/', src: ['**'], dest: 'EBI-Species/static/svg'}
         ],
       },
-    }
+    },
+
+		// 5. Combine the built webfont previews into a global template
+		includes: {
+		  files: {
+				debug: true,
+				src: [
+					'templates/index.html'
+					// 'EBI-Chemistry/fonts/EBI-Chemistry.html',
+					// 'EBI-Conceptual/fonts/EBI-Conceptual.html',
+					// 'EBI-FileFormats/fonts/EBI-FileFormats.html',
+					// 'EBI-Generic/fonts/EBI-Generic.html',
+					// 'EBI-SocialMedia/fonts/EBI-SocialMedia.html',
+				  // 'EBI-Species/fonts/EBI-Species.html'
+				],
+		    dest: '.', // Destination directory
+		    flatten: true,
+		    cwd: '.',
+		    options: {
+					// includeRegexp: '/^(\s*)include\s+"(\S+)"\s*$/',
+					// template: 'EBI-Chemistry/fonts/EBI-Chemistry.html',
+		      // silent: true,
+		      banner: '<!-- I am a banner <% includes.files.dest %> -->',
+					includePath: [
+						// 'templates/master-template.html'
+						'EBI-Chemistry/fonts/',
+						'EBI-Conceptual/fonts/',
+						'EBI-FileFormats/fonts/',
+						'EBI-Functional/fonts/',
+						'EBI-Generic/fonts/',
+						'EBI-SocialMedia/fonts/',
+					  'EBI-Species/fonts/'
+					],
+
+		    }
+		  }
+		}
 
     // grunticon: {
     //     all: {

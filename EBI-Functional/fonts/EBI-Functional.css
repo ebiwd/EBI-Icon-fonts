@@ -3,12 +3,12 @@
 
 @font-face {
 	font-family:"EBI-Functional";
-	src:url("EBI-Functional.eot?307e655233d7cb3775842f781074a066");
+	src:url("EBI-Functional.eot?a857135197c129d5fed06a6eebe0e7b0");
 	src:url("EBI-Functional.eot?#iefix") format("embedded-opentype"),
-		url("EBI-Functional.woff2?307e655233d7cb3775842f781074a066") format("woff2"),
-		url("EBI-Functional.woff?307e655233d7cb3775842f781074a066") format("woff"),
-		url("EBI-Functional.ttf?307e655233d7cb3775842f781074a066") format("truetype"),
-		url("EBI-Functional.svg?307e655233d7cb3775842f781074a066#EBI-Functional") format("svg");
+		url("EBI-Functional.woff2?a857135197c129d5fed06a6eebe0e7b0") format("woff2"),
+		url("EBI-Functional.woff?a857135197c129d5fed06a6eebe0e7b0") format("woff"),
+		url("EBI-Functional.ttf?a857135197c129d5fed06a6eebe0e7b0") format("truetype"),
+		url("EBI-Functional.svg?a857135197c129d5fed06a6eebe0e7b0#EBI-Functional") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -305,7 +305,7 @@
 
 
 .icon-undo:before {
-	content:"\7c";
+	content:"\5a";
 }
 
 

@@ -3,9 +3,11 @@ image: netroby/alpine-rsync
 #project specific variables can be defines here, or overridden project settings
 variables:
   SERVER_DEV: ebi-cli.ebi.ac.uk
-  SCRIPT_DEV: update-ebi-icon-fonts
+  SCRIPT_DEV: ~/bin/update-ebi-icon-fonts
+  DEV_URL: http://wwwdev.ebi.ac.uk/web_guidelines/EBI-Icon-fonts
   SERVER_PROD: ebi-cli.ebi.ac.uk
-  SCRIPT_PROD: update-ebi-icon-fonts-prod
+  SCRIPT_PROD: ~/bin/update-ebi-icon-fonts-prod
+  PROD_URL: http://www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts
 # do not define here, put in project variables
   SSH_USER: username
   SSH_KEY: secret-key
@@ -41,3 +43,4 @@ deploy_live:
   environment: 
     name: live
     url: ${LIVE_URL}
+    

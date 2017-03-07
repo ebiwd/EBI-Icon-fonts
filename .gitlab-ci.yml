@@ -1,4 +1,4 @@
-image: alpine
+image: netroby/alpine-rsync
 
 #project specific variables can be defines here, or overridden project settings
 variables:

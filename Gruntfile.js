@@ -703,6 +703,6 @@ module.exports = function(grunt) {
     //     }
     // }
   });
-  grunt.registerTask('default', ['svgmin','webfont','grunticon','copy']);
+  grunt.registerTask('default', ['svgmin','webfont','grunticon','copy','includes']);
 
 };

@@ -151,7 +151,10 @@ module.exports = function(grunt) {
             'virus': 0x0076,
             'wallaby': 0x0077,
             'sheep': 0x0078,
-            'aspergillus': 0x00a3
+            'aspergillus': 0x00a3,
+            'capra_hircus': 0x006d,
+            'lymnaea_stagnalis': 0x0027,
+            'tetronarce_californica': 0x002b
           }
         }
       },

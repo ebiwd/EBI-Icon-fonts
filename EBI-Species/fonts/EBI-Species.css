@@ -3,11 +3,11 @@
 
 @font-face {
 	font-family:"EBI-Species";
-	src:url("EBI-Species.eot?536e4e616a12600cc3cae08181ee3414");
+	src:url("EBI-Species.eot?7c2938fcb1f2c16894771f55c65c1874");
 	src:url("EBI-Species.eot?#iefix") format("embedded-opentype"),
-		url("EBI-Species.woff?536e4e616a12600cc3cae08181ee3414") format("woff"),
-		url("EBI-Species.ttf?536e4e616a12600cc3cae08181ee3414") format("truetype"),
-		url("EBI-Species.svg?536e4e616a12600cc3cae08181ee3414#EBI-Species") format("svg");
+		url("EBI-Species.woff?7c2938fcb1f2c16894771f55c65c1874") format("woff"),
+		url("EBI-Species.ttf?7c2938fcb1f2c16894771f55c65c1874") format("truetype"),
+		url("EBI-Species.svg?7c2938fcb1f2c16894771f55c65c1874#EBI-Species") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -90,6 +90,11 @@
 
 .icon-c-elegans:before {
 	content:"\57";
+}
+
+
+.icon-capra_hircus:before {
+	content:"\6d";
 }
 
 
@@ -213,6 +218,11 @@
 }
 
 
+.icon-lymnaea_stagnalis:before {
+	content:"\27";
+}
+
+
 .icon-monkey:before {
 	content:"\72";
 }
@@ -310,6 +320,11 @@
 
 .icon-squirrel:before {
 	content:"\49";
+}
+
+
+.icon-tetronarce_californica:before {
+	content:"\2b";
 }
 
 

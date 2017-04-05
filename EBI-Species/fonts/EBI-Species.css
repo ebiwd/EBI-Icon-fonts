@@ -3,11 +3,11 @@
 
 @font-face {
 	font-family:"EBI-Species";
-	src:url("EBI-Species.eot?7c2938fcb1f2c16894771f55c65c1874");
+	src:url("EBI-Species.eot?886e1d85336699c433c422e3f097dd31");
 	src:url("EBI-Species.eot?#iefix") format("embedded-opentype"),
-		url("EBI-Species.woff?7c2938fcb1f2c16894771f55c65c1874") format("woff"),
-		url("EBI-Species.ttf?7c2938fcb1f2c16894771f55c65c1874") format("truetype"),
-		url("EBI-Species.svg?7c2938fcb1f2c16894771f55c65c1874#EBI-Species") format("svg");
+		url("EBI-Species.woff?886e1d85336699c433c422e3f097dd31") format("woff"),
+		url("EBI-Species.ttf?886e1d85336699c433c422e3f097dd31") format("truetype"),
+		url("EBI-Species.svg?886e1d85336699c433c422e3f097dd31#EBI-Species") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -93,11 +93,6 @@
 }
 
 
-.icon-capra_hircus:before {
-	content:"\6d";
-}
-
-
 .icon-cat:before {
 	content:"\41";
 }
@@ -178,6 +173,11 @@
 }
 
 
+.icon-goat-(capra_hircus):before {
+	content:"\6d";
+}
+
+
 .icon-gorilla:before {
 	content:"\47";
 }
@@ -215,11 +215,6 @@
 
 .icon-louse:before {
 	content:"\34";
-}
-
-
-.icon-lymnaea_stagnalis:before {
-	content:"\27";
 }
 
 
@@ -293,6 +288,11 @@
 }
 
 
+.icon-ray-(tetronarce_californica):before {
+	content:"\2b";
+}
+
+
 .icon-rice:before {
 	content:"\36";
 }
@@ -313,6 +313,11 @@
 }
 
 
+.icon-snail-(lymnaea_stagnalis):before {
+	content:"\27";
+}
+
+
 .icon-spider:before {
 	content:"\53";
 }
@@ -320,11 +325,6 @@
 
 .icon-squirrel:before {
 	content:"\49";
-}
-
-
-.icon-tetronarce_californica:before {
-	content:"\2b";
 }
 
 

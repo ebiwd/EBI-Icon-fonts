@@ -3,11 +3,11 @@
 
 @font-face {
 	font-family:"EBI-FileFormats";
-	src:url("EBI-FileFormats.eot?e73e464553b4c62c770dda9a4fba3a8c");
+	src:url("EBI-FileFormats.eot?19fa668fd5e7094b48ff5e8190a02300");
 	src:url("EBI-FileFormats.eot?#iefix") format("embedded-opentype"),
-		url("EBI-FileFormats.woff?e73e464553b4c62c770dda9a4fba3a8c") format("woff"),
-		url("EBI-FileFormats.ttf?e73e464553b4c62c770dda9a4fba3a8c") format("truetype"),
-		url("EBI-FileFormats.svg?e73e464553b4c62c770dda9a4fba3a8c#EBI-FileFormats") format("svg");
+		url("EBI-FileFormats.woff?19fa668fd5e7094b48ff5e8190a02300") format("woff"),
+		url("EBI-FileFormats.ttf?19fa668fd5e7094b48ff5e8190a02300") format("truetype"),
+		url("EBI-FileFormats.svg?19fa668fd5e7094b48ff5e8190a02300#EBI-FileFormats") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }

@@ -3,11 +3,11 @@
 
 @font-face {
 	font-family:"EBI-Chemistry";
-	src:url("EBI-Chemistry.eot?05a12f0be584fa14face86e972c30616");
+	src:url("EBI-Chemistry.eot?bbb56b1a636fc2be9684d81f874971f2");
 	src:url("EBI-Chemistry.eot?#iefix") format("embedded-opentype"),
-		url("EBI-Chemistry.woff?05a12f0be584fa14face86e972c30616") format("woff"),
-		url("EBI-Chemistry.ttf?05a12f0be584fa14face86e972c30616") format("truetype"),
-		url("EBI-Chemistry.svg?05a12f0be584fa14face86e972c30616#EBI-Chemistry") format("svg");
+		url("EBI-Chemistry.woff?bbb56b1a636fc2be9684d81f874971f2") format("woff"),
+		url("EBI-Chemistry.ttf?bbb56b1a636fc2be9684d81f874971f2") format("truetype"),
+		url("EBI-Chemistry.svg?bbb56b1a636fc2be9684d81f874971f2#EBI-Chemistry") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }

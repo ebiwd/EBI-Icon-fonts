@@ -22,8 +22,6 @@
 
 .icon-c-elegans { background-image: url('png/c-elegans.png'); background-repeat: no-repeat; }
 
-.icon-capra_hircus { background-image: url('png/capra_hircus.png'); background-repeat: no-repeat; }
-
 .icon-cat { background-image: url('png/cat.png'); background-repeat: no-repeat; }
 
 .icon-chicken { background-image: url('png/chicken.png'); background-repeat: no-repeat; }
@@ -56,6 +54,8 @@
 
 .icon-glycinemax { background-image: url('png/glycinemax.png'); background-repeat: no-repeat; }
 
+.icon-goat-capra_hircus { background-image: url('png/goat-capra_hircus.png'); background-repeat: no-repeat; }
+
 .icon-gorilla { background-image: url('png/gorilla.png'); background-repeat: no-repeat; }
 
 .icon-grapes { background-image: url('png/grapes.png'); background-repeat: no-repeat; }
@@ -71,8 +71,6 @@
 .icon-kangaroo-rat { background-image: url('png/kangaroo-rat.png'); background-repeat: no-repeat; }
 
 .icon-louse { background-image: url('png/louse.png'); background-repeat: no-repeat; }
-
-.icon-lymnaea_stagnalis { background-image: url('png/lymnaea_stagnalis.png'); background-repeat: no-repeat; }
 
 .icon-monkey { background-image: url('png/monkey.png'); background-repeat: no-repeat; }
 
@@ -102,6 +100,8 @@
 
 .icon-rat { background-image: url('png/rat.png'); background-repeat: no-repeat; }
 
+.icon-ray-tetronarce_californica { background-image: url('png/ray-tetronarce_californica.png'); background-repeat: no-repeat; }
+
 .icon-rice { background-image: url('png/rice.png'); background-repeat: no-repeat; }
 
 .icon-scorpion { background-image: url('png/scorpion.png'); background-repeat: no-repeat; }
@@ -110,11 +110,11 @@
 
 .icon-shrew { background-image: url('png/shrew.png'); background-repeat: no-repeat; }
 
+.icon-snail-lymnaea_stagnalis { background-image: url('png/snail-lymnaea_stagnalis.png'); background-repeat: no-repeat; }
+
 .icon-spider { background-image: url('png/spider.png'); background-repeat: no-repeat; }
 
 .icon-squirrel { background-image: url('png/squirrel.png'); background-repeat: no-repeat; }
-
-.icon-tetronarce_californica { background-image: url('png/tetronarce_californica.png'); background-repeat: no-repeat; }
 
 .icon-tick { background-image: url('png/tick.png'); background-repeat: no-repeat; }
 

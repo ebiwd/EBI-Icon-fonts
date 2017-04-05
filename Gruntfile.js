@@ -7,8 +7,8 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-svgmin');
   grunt.loadNpmTasks('grunt-webfont');
-  grunt.loadNpmTasks('grunt-grunticon');
   grunt.loadNpmTasks('grunt-contrib-copy');
+  grunt.loadNpmTasks('grunt-grunticon');
   grunt.loadNpmTasks('grunt-includes');
 
   grunt.initConfig({
@@ -152,9 +152,9 @@ module.exports = function(grunt) {
             'wallaby': 0x0077,
             'sheep': 0x0078,
             'aspergillus': 0x00a3,
-            'capra_hircus': 0x006d,
-            'lymnaea_stagnalis': 0x0027,
-            'tetronarce_californica': 0x002b
+            'goat-(capra_hircus)': 0x006d,
+            'snail-(lymnaea_stagnalis)': 0x0027,
+            'ray-(tetronarce_californica)': 0x002b
           }
         }
       },
@@ -460,13 +460,43 @@ module.exports = function(grunt) {
         }
       }
     },
-    // 3. Make the PNGs
+
+    // 3. Copy the source SVGs into the font folders
+    copy: {
+      main: {
+        files: [
+          // includes files within path
+          {expand: true, cwd: 'source/chemistry/', src: ['**'], dest: 'EBI-Chemistry/static/svg', rename: function(dest, src) {
+            return dest + '/' + src.replace('(','').replace(')','');
+          }},
+          {expand: true, cwd: 'source/conceptual/', src: ['**'], dest: 'EBI-Conceptual/static/svg', rename: function(dest, src) {
+            return dest + '/' + src.replace('(','').replace(')','');
+          }},
+          {expand: true, cwd: 'source/fileformats/', src: ['**'], dest: 'EBI-FileFormats/static/svg', rename: function(dest, src) {
+            return dest + '/' + src.replace('(','').replace(')','');
+          }},
+          {expand: true, cwd: 'source/functional/', src: ['**'], dest: 'EBI-Functional/static/svg', rename: function(dest, src) {
+            return dest + '/' + src.replace('(','').replace(')','');
+          }},
+          {expand: true, cwd: 'source/generic/', src: ['**'], dest: 'EBI-Generic/static/svg', rename: function(dest, src) {
+            return dest + '/' + src.replace('(','').replace(')','');
+          }},
+          {expand: true, cwd: 'source/social/', src: ['**'], dest: 'EBI-SocialMedia/static/svg', rename: function(dest, src) {
+            return dest + '/' + src.replace('(','').replace(')','');
+          }},
+          {expand: true, cwd: 'source/species/', src: ['**'], dest: 'EBI-Species/static/svg', rename: function(dest, src) {
+            return dest + '/' + src.replace('(','').replace(')','');
+          }}
+        ],
+      },
+    },
+    // 4. Make the PNGs
     //    (and compiled CSS files for poteintal future use)
     grunticon: {
       chemistry: {
           files: [{
               expand: true,
-              cwd: 'source/chemistry',
+              cwd: 'EBI-Chemistry/static/svg',
               src: ['*.svg'],
               dest: "EBI-Chemistry/static"
           }],
@@ -482,7 +512,7 @@ module.exports = function(grunt) {
       conceptual: {
           files: [{
               expand: true,
-              cwd: 'source/conceptual',
+              cwd: 'EBI-Conceptual/static/svg',
               src: ['*.svg'],
               dest: "EBI-Conceptual/static"
           }],
@@ -498,7 +528,7 @@ module.exports = function(grunt) {
       fileformats: {
           files: [{
               expand: true,
-              cwd: 'source/fileformats',
+              cwd: 'EBI-FileFormats/static/svg',
               src: ['*.svg'],
               dest: "EBI-FileFormats/static"
           }],
@@ -514,9 +544,9 @@ module.exports = function(grunt) {
       functional: {
           files: [{
               expand: true,
-              cwd: 'source/functional',
+              cwd: 'EBI-Functional/static/svg',
               src: ['*.svg'],
-              dest: "EBI-Functional/static"
+              dest: 'EBI-Functional/static'
           }],
           options: {
             // enhanceSVG: true,
@@ -530,9 +560,9 @@ module.exports = function(grunt) {
       generic: {
           files: [{
               expand: true,
-              cwd: 'source/generic',
+              cwd: 'EBI-Generic/static/svg',
               src: ['*.svg'],
-              dest: "EBI-Generic/static"
+              dest: 'EBI-Generic/static'
           }],
           options: {
             // enhanceSVG: true,
@@ -546,7 +576,7 @@ module.exports = function(grunt) {
       social: {
           files: [{
               expand: true,
-              cwd: 'source/social',
+              cwd: 'EBI-SocialMedia/static/svg',
               src: ['*.svg'],
               dest: "EBI-SocialMedia/static"
           }],
@@ -562,7 +592,7 @@ module.exports = function(grunt) {
       species: {
           files: [{
               expand: true,
-              cwd: 'source/species',
+              cwd: 'EBI-Species/static/svg',
               src: ['*.svg'],
               dest: "EBI-Species/static"
           }],
@@ -576,22 +606,6 @@ module.exports = function(grunt) {
           }
       },
     },
-    // 4. Copy the source SVGs into the font folders
-    copy: {
-      main: {
-        files: [
-          // includes files within path
-          {expand: true, cwd: 'source/chemistry/', src: ['**'], dest: 'EBI-Chemistry/static/svg'},
-          {expand: true, cwd: 'source/conceptual/', src: ['**'], dest: 'EBI-Conceptual/static/svg'},
-          {expand: true, cwd: 'source/fileformats/', src: ['**'], dest: 'EBI-FileFormats/static/svg'},
-          {expand: true, cwd: 'source/functional/', src: ['**'], dest: 'EBI-Functional/static/svg'},
-          {expand: true, cwd: 'source/generic/', src: ['**'], dest: 'EBI-Generic/static/svg'},
-          {expand: true, cwd: 'source/social/', src: ['**'], dest: 'EBI-SocialMedia/static/svg'},
-          {expand: true, cwd: 'source/species/', src: ['**'], dest: 'EBI-Species/static/svg'}
-        ],
-      },
-    },
-
     // 5. Combine the built webfont previews into a global template
     includes: {
       files: {

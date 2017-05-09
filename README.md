@@ -42,5 +42,31 @@ If you're in need of an icon for a squirrel, bucket, or something useful: [use t
 - NPM users can get the code from [npmjs.com/package/EBI-Icon-fonts](https://www.npmjs.com/package/EBI-Icon-fonts)
 - React users that are working with the EBI Species icons should check out [wbazant/react-ebi-species](https://github.com/wbazant/react-ebi-species)
 
+# Versioning
+We are using a semantic versioning style of releases.
+
+| Major release | Minor release | Note |
+| ------------- | ------------- | ---- |
+| (Branch)      | (Tag)         | |
+| 1.1           | .0            | Initial major release  |
+| "             | .1            | Tagged minor release |
+| "             | .2            | Tagged minor release |
+| "             | .3            | Tagged minor release |
+| 1.2           | .0            | Documented, breaking release |
+| "             | .1            | Tagged minor release |
+| 1.3           | .0            | Documented, breaking release |
+
+Difference between major, minor releases:
+- Major releases (1.1, 1.2, 1.3...) can have breaking changes and any such changes will be detailed and tested.
+- Minor releases (0.0.X) will not have changes to code structure or parts and will mainly add features or update visual assets (such as logos or icon fonts).
+
+
+## Use of branches
+
+As code is built we use [Travis to build the assets](https://travis-ci.org/ebiwd/EBI-Icon-fonts); here's the branch structure.
+
+- v1.2: Output of Travis build process, to be deployed on EBI servers
+- v1.2-code: Code for development that will be consumed by Travis
+
 # Licensing
 We generally encourage others to use these icons -- we're still working out the official license, but in the meantime, if you'd like to use them, please get in touch.

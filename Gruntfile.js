@@ -152,9 +152,9 @@ module.exports = function(grunt) {
             'wallaby': 0x0077,
             'sheep': 0x0078,
             'aspergillus': 0x00a3,
-            'goat-(capra_hircus)': 0x006d,
-            'snail-(lymnaea_stagnalis)': 0x0027,
-            'ray-(tetronarce_californica)': 0x002b
+            'goat': 0x006d,
+            'snail': 0x0027,
+            'ray': 0x002b
           }
         }
       },

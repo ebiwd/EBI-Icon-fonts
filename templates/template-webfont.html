@@ -1,0 +1,33 @@
+    <!-- This will be embeded into a master preview at http://www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/ -->
+    <link rel="stylesheet" href="../../fonts.css" type="text/css" media="all">
+    <!-- We still relink the fonts css for a basic preview -->
+    <table class="responsive-table">
+      <thead>
+        <tr>
+          <th class="small-5" id="<%= fontFamilyName %>" data-magellan-target="<%= fontFamilyName %>"><%= fontFamilyName %> <% if (version) { %><small>version <%= version %></small><% } %></th>
+          <th class="small-1"></th>
+          <th class="small-6 kbd small">HTML</th>
+          <th class="show-for-large kbd small">Drupal</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { var glyph = glyphs[glyphIdx] %>
+          <% var charcode = '&#x' + codepoints[glyphIdx] %>
+          <tr>
+            <%
+            _.mixin({
+              pretify: function(string) {
+                string = string.replace(/_id$/, '').replace(/_/g, ' ').replace(/-/g, ' ');
+                return string.charAt(0).toUpperCase() + string.substring(1).toLowerCase();
+              }
+            });
+            %>
+            <% var glyphPretty = _(glyph).pretify(); %>
+            <td><%= glyphPretty %></td>
+            <td><span class="<%= baseClass %> <%= classPrefix %>" data-icon="<%= charcode %>">  </span></td>
+            <td>&lt;* class="icon <%= baseClass %>" data-icon="<%= charcode %>"&gt;</td>
+            <td>[<%= baseClass %>:<%= charcode %>]</td>
+          </tr>
+        <% } %>
+      </tbody>
+    </table>

@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ebiwd/EBI-Icon-fonts.svg?branch=v1.2-code)](https://travis-ci.org/ebiwd/EBI-Icon-fonts)
+
 <img width=300 src="https://lh4.googleusercontent.com/3rG71pwQnYfLK4l0CS123BzHeVf4Dq_QO3MydceTLFtPUGkVmMk9c0ylz080EtoOy-gIKwZJcA=w980" />
 
 # EMBL-EBI Icon fonts for the life sciences

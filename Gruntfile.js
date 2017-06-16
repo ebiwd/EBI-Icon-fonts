@@ -614,7 +614,8 @@ module.exports = function(grunt) {
       files: {
         debug: true,
         src: [
-          'templates/index.html'
+          'templates/index.html',
+          'templates/partial.html'
         ],
         dest: '.', // Destination directory
         flatten: true,

@@ -1,5 +1,6 @@
-### Need a new icon?
-If you're in need of an icon for a squirrel, bucket, or something useful: [use this form](https://docs.google.com/a/ebi.ac.uk/forms/d/e/1FAIpQLSe7_lFbhVdt-AJeGQChjkiab642nDkfKTVoNQRosPAKuBP3_g/viewform?c=0&w=1).
+## Newer version available
+If you're a user of the fonts on your desktop computer/laptop, or have a website that uses the CSS file: <a href="https://github.com/ebiwd/EBI-Icon-fonts">you should look at v1.2 of the fonts</a>.
+
 
 # EMBL-EBI Icon fonts for the life sciences 
 

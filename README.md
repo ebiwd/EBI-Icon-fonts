@@ -29,7 +29,7 @@ If you're in need of an icon for a squirrel, bucket, or something useful: [use t
 - Releases are homed at [www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/](https://www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts)
 - You can load the default CSS by linking to the v1.2 release at [www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/v1.1/fonts.css](https://www.ebi.ac.uk/web_guidelines/EBI-Icon-fonts/v1.2/fonts.css)
 - NPM users can get the code from [npmjs.com/package/EBI-Icon-fonts](https://www.npmjs.com/package/EBI-Icon-fonts)
-- React users that are working with the EBI Species icons should check out [wbazant/react-ebi-species](https://github.com/wbazant/react-ebi-species)
+- React users that are working with the EBI Species icons should check out [wbazant/react-ebi-species](https://www.npmjs.com/package/react-ebi-species)
 
 # Code structure, developing the fonts
 

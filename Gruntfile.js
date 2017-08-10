@@ -83,7 +83,7 @@ module.exports = function(grunt) {
           font: 'EBI-Species',
           fontFamilyName: 'EBI-Species',
           fontFilename: 'EBI-Species',
-          types: 'eot,woff,ttf,svg',
+          types: 'eot,woff,woff2,ttf,svg',
           templateOptions: {
             baseClass: 'icon-species',
             classPrefix: 'icon-'
@@ -167,7 +167,7 @@ module.exports = function(grunt) {
           font: 'EBI-SocialMedia',
           fontFamilyName: 'EBI-SocialMedia',
           fontFilename: 'EBI-SocialMedia',
-          types: 'eot,woff,ttf,svg',
+          types: 'eot,woff,woff2,ttf,svg',
           templateOptions: {
             baseClass: 'icon-socialmedia',
             classPrefix: 'icon-'
@@ -205,7 +205,7 @@ module.exports = function(grunt) {
           font: 'EBI-Generic',
           fontFamilyName: 'EBI-Generic',
           fontFilename: 'EBI-Generic',
-          types: 'eot,woff,ttf,svg',
+          types: 'eot,woff,woff2,ttf,svg',
           templateOptions: {
             baseClass: 'icon-generic',
             classPrefix: 'icon-'
@@ -293,7 +293,7 @@ module.exports = function(grunt) {
           font: 'EBI-Functional',
           fontFamilyName: 'EBI-Functional',
           fontFilename: 'EBI-Functional',
-          types: 'eot,woff,ttf,svg',
+          types: 'eot,woff,woff2,ttf,svg',
           templateOptions: {
             baseClass: 'icon-functional',
             classPrefix: 'icon-'
@@ -374,7 +374,7 @@ module.exports = function(grunt) {
           font: 'EBI-Conceptual',
           fontFamilyName: 'EBI-Conceptual',
           fontFilename: 'EBI-Conceptual',
-          types: 'eot,woff,ttf,svg',
+          types: 'eot,woff,woff2,ttf,svg',
           templateOptions: {
             baseClass: 'icon-conceptual',
             classPrefix: 'icon-'
@@ -402,7 +402,7 @@ module.exports = function(grunt) {
           font: 'EBI-FileFormats',
           fontFamilyName: 'EBI-FileFormats',
           fontFilename: 'EBI-FileFormats',
-          types: 'eot,woff,ttf,svg',
+          types: 'eot,woff,woff2,ttf,svg',
           templateOptions: {
             baseClass: 'icon-fileformats',
             classPrefix: 'icon-'
@@ -448,7 +448,7 @@ module.exports = function(grunt) {
           font: 'EBI-Chemistry',
           fontFamilyName: 'EBI-Chemistry',
           fontFilename: 'EBI-Chemistry',
-          types: 'eot,woff,ttf,svg',
+          types: 'eot,woff,woff2,ttf,svg',
           templateOptions: {
             baseClass: 'icon-chemistry',
             classPrefix: 'icon-'

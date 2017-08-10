@@ -6,6 +6,7 @@
   font-family: 'EBI-Conceptual';
   src:url('EBI-Conceptual/fonts/EBI-Conceptual.eot');
   src:url('EBI-Conceptual/fonts/EBI-Conceptual.eot?#iefix') format('embedded-opentype'),
+    url('EBI-Conceptual/fonts/EBI-Conceptual.woff2') format('woff2'),
     url('EBI-Conceptual/fonts/EBI-Conceptual.woff') format('woff'),
     url('EBI-Conceptual/fonts/EBI-Conceptual.svg#EBI-Conceptual') format('svg'),
     url('EBI-Conceptual/fonts/EBI-Conceptual.ttf') format('truetype');
@@ -17,6 +18,7 @@
   font-family: 'EBI-Functional';
   src:url('EBI-Functional/fonts/EBI-Functional.eot');
   src:url('EBI-Functional/fonts/EBI-Functional.eot?#iefix') format('embedded-opentype'),
+    url('EBI-Conceptual/fonts/EBI-Functional.woff2') format('woff2'),
     url('EBI-Functional/fonts/EBI-Functional.woff') format('woff'),
     url('EBI-Functional/fonts/EBI-Functional.svg#EBI-Functional') format('svg'),
     url('EBI-Functional/fonts/EBI-Functional.ttf') format('truetype');
@@ -28,6 +30,7 @@
   font-family: 'EBI-Generic';
   src:url('EBI-Generic/fonts/EBI-Generic.eot');
   src:url('EBI-Generic/fonts/EBI-Generic.eot?#iefix') format('embedded-opentype'),
+    url('EBI-Conceptual/fonts/EBI-Generic.woff2') format('woff2'),
     url('EBI-Generic/fonts/EBI-Generic.woff') format('woff'),
     url('EBI-Generic/fonts/EBI-Generic.svg#EBI-Generic') format('svg'),
     url('EBI-Generic/fonts/EBI-Generic.ttf') format('truetype');
@@ -39,6 +42,7 @@
   font-family: 'EBI-Species';
   src:url('EBI-Species/fonts/EBI-Species.eot');
   src:url('EBI-Species/fonts/EBI-Species.eot?#iefix') format('embedded-opentype'),
+    url('EBI-Conceptual/fonts/EBI-Species.woff2') format('woff2'),
     url('EBI-Species/fonts/EBI-Species.woff') format('woff'),
     url('EBI-Species/fonts/EBI-Species.svg#EBI-Species') format('svg'),
     url('EBI-Species/fonts/EBI-Species.ttf') format('truetype');
@@ -50,6 +54,7 @@
   font-family: 'EBI-SocialMedia';
   src:url('EBI-SocialMedia/fonts/EBI-SocialMedia.eot');
   src:url('EBI-SocialMedia/fonts/EBI-SocialMedia.eot?#iefix') format('embedded-opentype'),
+    url('EBI-Conceptual/fonts/EBI-SocialMedia.woff2') format('woff2'),
     url('EBI-SocialMedia/fonts/EBI-SocialMedia.woff') format('woff'),
     url('EBI-SocialMedia/fonts/EBI-SocialMedia.svg#EBI-SocialMedia') format('svg'),
     url('EBI-SocialMedia/fonts/EBI-SocialMedia.ttf') format('truetype');
@@ -61,6 +66,7 @@
   font-family: 'EBI-FileFormats';
   src:url('EBI-FileFormats/fonts/EBI-FileFormats.eot');
   src:url('EBI-FileFormats/fonts/EBI-FileFormats.eot?#iefix') format('embedded-opentype'),
+    url('EBI-Conceptual/fonts/EBI-FileFormats.woff2') format('woff2'),
     url('EBI-FileFormats/fonts/EBI-FileFormats.woff') format('woff'),
     url('EBI-FileFormats/fonts/EBI-FileFormats.svg#EBI-Functional') format('svg'),
     url('EBI-FileFormats/fonts/EBI-FileFormats.ttf') format('truetype');
@@ -72,6 +78,7 @@
   font-family: 'EBI-Chemistry';
   src:url('EBI-Chemistry/fonts/EBI-Chemistry.eot');
   src:url('EBI-Chemistry/fonts/EBI-Chemistry.eot?#iefix') format('embedded-opentype'),
+    url('EBI-Conceptual/fonts/EBI-Chemistry.woff2') format('woff2'),
     url('EBI-Chemistry/fonts/EBI-Chemistry.woff') format('woff'),
     url('EBI-Chemistry/fonts/EBI-Chemistry.svg#EBI-Chemistry') format('svg'),
     url('EBI-Chemistry/fonts/EBI-Chemistry.ttf') format('truetype');

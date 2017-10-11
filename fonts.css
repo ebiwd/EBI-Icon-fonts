@@ -93,6 +93,7 @@
   font-style: normal;
   text-rendering: optimizeLegibility !important;
   background-size: contain;
+  font-weight: 400;
 }
 input.icon-conceptual,
 .icon-conceptual:before,

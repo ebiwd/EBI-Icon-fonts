@@ -6,8 +6,8 @@ set -e;
 set -u;
 
 # get current branch from git info
-PROJECT=$(grep -F "url =" .git/config | cut -d'/' -f2 | cut -d'.' -f1);
-BRANCH=$(cat .git/HEAD | cut -d'/' -f3);
+PROJECT=${CI_PROJECT_NAME};
+BRANCH=${CI_COMMIT_REF_NAME};
 
 # set project base
 DEPLOY_PATH="web_guidelines/${PROJECT}/${BRANCH}";

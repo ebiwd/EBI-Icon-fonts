@@ -1,0 +1,193 @@
+/* Icons
+=================================================== */
+
+/* Biological concepts and top-level icons (e.g. Services, Research, etc. */
+@font-face {
+  font-family: 'EBI-Conceptual';
+  src:url('EBI-Conceptual/fonts/EBI-Conceptual.eot');
+  src:url('EBI-Conceptual/fonts/EBI-Conceptual.eot?#iefix') format('embedded-opentype'),
+    url('EBI-Conceptual/fonts/EBI-Conceptual.woff2') format('woff2'),
+    url('EBI-Conceptual/fonts/EBI-Conceptual.woff') format('woff'),
+    url('EBI-Conceptual/fonts/EBI-Conceptual.svg#EBI-Conceptual') format('svg'),
+    url('EBI-Conceptual/fonts/EBI-Conceptual.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Generic, functional or activity-orientated icons */
+@font-face {
+  font-family: 'EBI-Functional';
+  src:url('EBI-Functional/fonts/EBI-Functional.eot');
+  src:url('EBI-Functional/fonts/EBI-Functional.eot?#iefix') format('embedded-opentype'),
+    url('EBI-Functional/fonts/EBI-Functional.woff2') format('woff2'),
+    url('EBI-Functional/fonts/EBI-Functional.woff') format('woff'),
+    url('EBI-Functional/fonts/EBI-Functional.svg#EBI-Functional') format('svg'),
+    url('EBI-Functional/fonts/EBI-Functional.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Generic icons that can be used as decoration or emphasis */
+@font-face {
+  font-family: 'EBI-Generic';
+  src:url('EBI-Generic/fonts/EBI-Generic.eot');
+  src:url('EBI-Generic/fonts/EBI-Generic.eot?#iefix') format('embedded-opentype'),
+    url('EBI-Generic/fonts/EBI-Generic.woff2') format('woff2'),
+    url('EBI-Generic/fonts/EBI-Generic.woff') format('woff'),
+    url('EBI-Generic/fonts/EBI-Generic.svg#EBI-Generic') format('svg'),
+    url('EBI-Generic/fonts/EBI-Generic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Icons for commonly referenced species and orgamisms */
+@font-face {
+  font-family: 'EBI-Species';
+  src:url('EBI-Species/fonts/EBI-Species.eot');
+  src:url('EBI-Species/fonts/EBI-Species.eot?#iefix') format('embedded-opentype'),
+    url('EBI-Species/fonts/EBI-Species.woff2') format('woff2'),
+    url('EBI-Species/fonts/EBI-Species.woff') format('woff'),
+    url('EBI-Species/fonts/EBI-Species.svg#EBI-Species') format('svg'),
+    url('EBI-Species/fonts/EBI-Species.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Icons for social media */
+@font-face {
+  font-family: 'EBI-SocialMedia';
+  src:url('EBI-SocialMedia/fonts/EBI-SocialMedia.eot');
+  src:url('EBI-SocialMedia/fonts/EBI-SocialMedia.eot?#iefix') format('embedded-opentype'),
+    url('EBI-SocialMedia/fonts/EBI-SocialMedia.woff2') format('woff2'),
+    url('EBI-SocialMedia/fonts/EBI-SocialMedia.woff') format('woff'),
+    url('EBI-SocialMedia/fonts/EBI-SocialMedia.svg#EBI-SocialMedia') format('svg'),
+    url('EBI-SocialMedia/fonts/EBI-SocialMedia.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Specific file formats */
+@font-face {
+  font-family: 'EBI-FileFormats';
+  src:url('EBI-FileFormats/fonts/EBI-FileFormats.eot');
+  src:url('EBI-FileFormats/fonts/EBI-FileFormats.eot?#iefix') format('embedded-opentype'),
+    url('EBI-FileFormats/fonts/EBI-FileFormats.woff2') format('woff2'),
+    url('EBI-FileFormats/fonts/EBI-FileFormats.woff') format('woff'),
+    url('EBI-FileFormats/fonts/EBI-FileFormats.svg#EBI-Functional') format('svg'),
+    url('EBI-FileFormats/fonts/EBI-FileFormats.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chemistry font */
+@font-face {
+  font-family: 'EBI-Chemistry';
+  src:url('EBI-Chemistry/fonts/EBI-Chemistry.eot');
+  src:url('EBI-Chemistry/fonts/EBI-Chemistry.eot?#iefix') format('embedded-opentype'),
+    url('EBI-Chemistry/fonts/EBI-Chemistry.woff2') format('woff2'),
+    url('EBI-Chemistry/fonts/EBI-Chemistry.woff') format('woff'),
+    url('EBI-Chemistry/fonts/EBI-Chemistry.svg#EBI-Chemistry') format('svg'),
+    url('EBI-Chemistry/fonts/EBI-Chemistry.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+/* General .icon support  */
+.icon {
+  text-decoration: none;
+  font-style: normal;
+  text-rendering: optimizeLegibility !important;
+  background-size: contain;
+  font-weight: 400;
+}
+input.icon-conceptual,
+.icon-conceptual:before,
+input.icon-functional,
+.icon-functional:before,
+input.icon-generic,
+.icon-generic:before,
+input.icon-species,
+.icon-species:before,
+input.icon-socialmedia,
+.icon-socialmedia:before,
+input.icon-fileformats,
+.icon-fileformats:before,
+input.icon-chemistry,
+.icon-chemistry:before {
+  content: attr(data-icon);
+}
+html i.icon-conceptual,
+html input.icon-conceptual,
+html .icon-conceptual:before {
+  font-family: 'EBI-Conceptual';
+}
+html i.icon-functional,
+html input.icon-functional,
+html .icon-functional:before {
+  font-family: 'EBI-Functional';
+}
+html i.icon-generic,
+html input.icon-generic,
+html .icon-generic:before {
+  font-family: 'EBI-Generic';
+}
+html i.icon-species,
+html input.icon-species,
+html .icon-species:before {
+  font-family: 'EBI-Species';
+}
+html i.icon-socialmedia,
+html input.icon-socialmedia,
+html .icon-socialmedia:before {
+  font-family: 'EBI-SocialMedia';
+}
+input.icon-fileformats,
+.icon-fileformats:before {
+  font-size: 123.1%;
+  font-family: 'EBI-FileFormats';
+}
+html i.icon-chemistry,
+html input.icon-chemistry,
+html .icon-chemistry:before {
+  font-family: 'EBI-Chemistry';
+}
+/* icon utility class */
+.icon.icon-spacer:before { padding-right: .5rem; }
+
+/* Custom colouring from some globally-used icons */
+.icon-c1:before { color: #dac79d; }  /* DNA & RNA */
+.icon-c2:before { color: #dab7e2; }  /* Gene expression */
+.icon-c3:before { color: #62d0df; }  /* Proteins */
+.icon-c4:before { color: #afc9b8; }  /* Structures */
+.icon-c5:before { color: #ffb4aa; }  /* Systems */
+.icon-c6:before { color: #ffc999; }  /* Chem bio */
+.icon-c7:before { color: #bec3d9; }  /* Ontologies */
+.icon-c8:before { color: #c5d4a3; }  /* Literature & patents */
+.icon-c9:before { color: #a4c7e2; }  /* Cross-domain */
+.icon-s1:before { color: #3b5998; }  /* Facebook */
+.icon-s2:before { color: #55acee; }  /* Twitter */
+.icon-s3:before { color: #007bb6; }  /* LinkedIn */
+.icon-s4:before { color: #ff6600; }  /* Blogger */
+.icon-s5:before { color: #a6c83f; }  /* Orcid */
+.icon-s6:before { color: #dd4b39; }  /* Google+ */
+.icon-s7:before { color: #bb0000; }  /* YouTube */
+.icon-s8:before { color: #f40083; }  /* Flikr */
+.icon-s9:before { color: #1ab7ea; }  /* Vimeo */
+.icon-s10:before { color: #00bcf2; }  /* Windows */
+.icon-s11:before { color: #f7941e; }  /* SlideShare */
+.icon-s12:before { color: #21759b; }  /* Wordpress */
+.icon-s13:before { color: #fa9b39; }  /* RSS */
+
+
+/* Compatibility with legacy compliance theme.
+   RWD framework now uses i.icon-functionality spec. */
+/* a.icon-conceptual,
+a.icon-functional,
+a.icon-species,
+a.socialmedia,
+a.icon-chemistry,
+a.icon-fileformats,
+a.icon-generic,
+h3.icon-conceptual,
+h3.icon-functional,
+h3.icon-species,
+h3.socialmedia,
+h3.icon-chemistry,
+h3.icon-fileformats,
+h3.icon-generic { font-family: 'helvetica', sans-serif; }
+ */

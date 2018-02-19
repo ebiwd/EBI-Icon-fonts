@@ -67,6 +67,7 @@ The git repo does not contain the compiled font assets. If you're a developer lo
   - `grunt webfont` generate the webfont files
   - `grunt grunticon` make the png static files
   - `grunt copy` copy svg source files into font static files
+  - `grunt includes` regenerate the HTML templates
 
 # Licensing
 We generally encourage others to use these icons -- we're still working out the official license, but in the meantime, if you'd like to use them, please get in touch.

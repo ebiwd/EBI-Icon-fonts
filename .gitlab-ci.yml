@@ -40,8 +40,8 @@ build:
       - node_modules
   artifacts:
     paths:
-      - */fonts
-      - */static
+      - '*/fonts'
+      - '*/static'
       - index.html
       - partial.html
 

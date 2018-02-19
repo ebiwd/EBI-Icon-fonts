@@ -38,7 +38,13 @@ build:
   cache:
     paths:
       - node_modules
-  
+  artifacts:
+    paths:
+      - */fonts
+      - */static
+      - index.html
+      - partial.html
+
 deploy_dev:
   <<: *deploy_setup
   stage: deploy

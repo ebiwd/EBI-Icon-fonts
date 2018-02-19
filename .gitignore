@@ -6,5 +6,6 @@ build
 components
 _site/
 */fonts
+*/static
 index.html
 partial.html

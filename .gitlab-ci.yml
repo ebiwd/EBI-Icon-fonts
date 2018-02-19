@@ -42,6 +42,7 @@ build:
     paths:
       - '*/fonts'
       - '*/static'
+      - fonts.css
       - index.html
       - partial.html
 

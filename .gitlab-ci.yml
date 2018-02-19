@@ -40,11 +40,7 @@ build:
       - node_modules
   artifacts:
     paths:
-      - '*/fonts'
-      - '*/static'
-      - fonts.css
-      - index.html
-      - partial.html
+      - '.'
 
 deploy_dev:
   <<: *deploy_setup

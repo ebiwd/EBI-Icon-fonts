@@ -24,7 +24,20 @@ variables:
     - echo -e "Host *\n\tIdentityFile ~/.ssh/%r\n\tStrictHostKeyChecking no" >> ~/.ssh/config
     
 stages:
+  - build
   - deploy
+
+build:
+  stage: build
+  image: ebiwd/node-fontforge-grunt:6
+  before_script:
+    - cd ${CI_PROJECT_DIR}
+    - npm install --quiet
+  script:
+    - grunt
+  cache:
+    paths:
+      - node_modules
   
 deploy_dev:
   <<: *deploy_setup

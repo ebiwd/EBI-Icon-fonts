@@ -68,5 +68,9 @@ The git repo does not contain the compiled font assets. If you're a developer lo
   - `grunt grunticon` make the png static files
   - `grunt copy` copy svg source files into font static files
 
+## Docker build
+Build the fonts with the docker image (as used by gitlab) as follows
+`docker run -it --rm -v $PWD:/workspace -w /workspace ebiwd/node-fontforge-grunt:6 sh -c 'npm install && grunt'`
+
 # Licensing
 We generally encourage others to use these icons -- we're still working out the official license, but in the meantime, if you'd like to use them, please get in touch.

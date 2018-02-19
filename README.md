@@ -13,12 +13,15 @@ Icons are added automatically through CSS using the <code>:before</code> feature
 ## What's new in v1.3?
 
 - The new version is a backwards compatible release, just point your css include to `https://ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.3/fonts.css`
-- Digging deeper you'll find static PNG and SVG assets along with an improved build process.
-- Note that new icons will not be added to v1.1
+- v1.3 and onwards are only available on the ebi.emblstatic.net CDN
+- New icons are only added to the current version (v1.3) and are not added to v1.1 or v1.2
+- We now show the escaped unicode and along with its rendered variant in the gallery:
+    -  `data-icon="&#x61"` and `data-icon="&amp;#x61"`
+- You are able to select icons by data attributes and classes
+    - `class=".icon.icon-generic.icon-alert"` and `class="icon icon-generic" data-icon="l"`
+- We now send over only the [woff and woff2 formats](https://github.com/ebiwd/EBI-Icon-fonts/issues/17)
 
-## Help us make these icons better
-
-The Web Guidelines Committee is reviewing how the icons are bundled and how they are delivered to developers, so if you want SVGs, smaller sizes, or PNGs: ask for by [adding a comment to this issue](https://github.com/ebiwd/EBI-Icon-fonts/issues/6).
+For more, [see the roadmap](https://github.com/ebiwd/EBI-Icon-fonts/issues/21).
 
 ## Need a new icon?
 
@@ -30,6 +33,7 @@ If you're in need of an icon for a squirrel, bucket, or something useful: [use t
 - You can load the default CSS by linking to the v1.3 release at [https://ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.3/fonts.css](https://ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.3/fonts.css)
 - NPM users can get the code from [npmjs.com/package/EBI-Icon-fonts](https://www.npmjs.com/package/EBI-Icon-fonts)
 - React users that are working with the EBI Species icons should check out [wbazant/react-ebi-species](https://www.npmjs.com/package/react-ebi-species)
+- We suggest using with the [EBI Visual Framework v1.3](https://github.com/ebiwd/EBI-Framework/tree/v1.3), but older versions work -- and you don't even really need to use the EBI Visual Framework at all.
 
 # Code structure, developing the fonts
 

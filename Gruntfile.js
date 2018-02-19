@@ -1,6 +1,6 @@
 var path = require('path');
 
-var version = '1.2'; // the version from the git repo branch
+var version = '1.3'; // the version from the git repo branch
 
 module.exports = function(grunt) {
   'use strict';

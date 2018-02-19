@@ -7,7 +7,7 @@
           <th class="small-5" id="<%= fontFamilyName %>" data-magellan-target="<%= fontFamilyName %>"><%= fontFamilyName %> <% if (version) { %><small>version <%= version %></small><% } %></th>
           <th class="small-1"></th>
           <th class="small-6 kbd small">HTML</th>
-          <th class="show-for-large kbd small">Drupal</th>
+          <th class="show-for-large kbd small">Unicode</th>
         </tr>
       </thead>
       <tbody>
@@ -25,8 +25,8 @@
             <% var glyphPretty = _(glyph).pretify(); %>
             <td><%= glyphPretty %></td>
             <td><span class="<%= baseClass %> <%= classPrefix %>" data-icon="<%= charcode %>">  </span></td>
-            <td>&lt;* class="icon <%= baseClass %>" data-icon="<%= charcode %>"&gt;</td>
-            <td>[<%= baseClass %>:<%= charcode %>]</td>
+            <td>&lt;i class="icon <%= baseClass %>" data-icon="<%= charcode %>"&gt;&lt;/i&gt;</td>
+            <td>data-icon="<%- charcode %>"</td>
           </tr>
         <% } %>
       </tbody>

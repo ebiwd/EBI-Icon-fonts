@@ -67,6 +67,7 @@ The git repo does not contain the compiled font assets. If you're a developer lo
   - `grunt webfont` generate the webfont files
   - `grunt grunticon` make the png static files
   - `grunt copy` copy svg source files into font static files
+  - `grunt webfont && grunt includes` regenerate the HTML templates
 
 ## Docker build
 Build the fonts with the docker image (as used by gitlab) as follows

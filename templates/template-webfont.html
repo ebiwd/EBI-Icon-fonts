@@ -2,10 +2,10 @@
 <table class="responsive-table">
   <thead>
     <tr>
-      <th class="small-5" id="<%= fontFamilyName %>" data-magellan-target="<%= fontFamilyName %>"><%= fontFamilyName %> <% if (version) { %><small>version <%= version %></small><% } %></th>
-      <th class="small-6 kbd small">HTML</th>
-      <th class="show-for-large kbd small">Unicode</th>
-      <th class="show-for-large kbd small">Class</th>
+      <th class="small-4" id="<%= fontFamilyName %>" data-magellan-target="<%= fontFamilyName %>"><%= fontFamilyName %> <% if (version) { %><% } %></th>
+      <th class="small-5 kbd small">HTML</th>
+      <th class="show-for-medium kbd small">Unicode</th>
+      <th class="show-for-medium kbd small">Class</th>
     </tr>
   </thead>
   <tbody>
@@ -21,7 +21,7 @@
         });
         %>
         <% var glyphPretty = _(glyph).pretify(); %>
-        <td><span class="<%= baseClass %>" data-icon="<%= charcode %>">  </span> <%= glyphPretty %></td>
+        <td><span class="icon <%= baseClass %> icon-spacer" data-icon="<%= charcode %>"></span><%= glyphPretty %></td>
         <td>&lt;i class="icon <%= baseClass %>" data-icon="<%= charcode %>"&gt;&lt;/i&gt;</td>
         <td>data-icon="<%- charcode %>"</td>
         <td>

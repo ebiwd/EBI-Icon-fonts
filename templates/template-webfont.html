@@ -6,6 +6,7 @@
       <th class="small-1"></th>
       <th class="small-6 kbd small">HTML</th>
       <th class="show-for-large kbd small">Unicode</th>
+      <th class="show-for-large kbd small">Class</th>
     </tr>
   </thead>
   <tbody>
@@ -22,9 +23,13 @@
         %>
         <% var glyphPretty = _(glyph).pretify(); %>
         <td><%= glyphPretty %></td>
-        <td><span class="<%= baseClass %> <%= classPrefix %>" data-icon="<%= charcode %>">  </span></td>
+        <td><span class="<%= baseClass %>" data-icon="<%= charcode %>">  </span></td>
         <td>&lt;i class="icon <%= baseClass %>" data-icon="<%= charcode %>"&gt;&lt;/i&gt;</td>
         <td>data-icon="<%- charcode %>"</td>
+        <td>
+          <i class="icon <%= baseClass %> <%= classPrefix %><%= _(glyph) %>"></i>
+          class="icon <%= baseClass %> <%= classPrefix %><%= _(glyph) %>"
+        </td>
       </tr>
     <% } %>
   </tbody>

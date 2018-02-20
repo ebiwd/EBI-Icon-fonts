@@ -84,6 +84,7 @@ module.exports = function(grunt) {
           fontFamilyName: 'EBI-Species',
           fontFilename: 'EBI-Species',
           types: 'woff,woff2,ttf',
+          template: 'templates/font-individual.css',
           templateOptions: {
             baseClass: 'icon-species',
             classPrefix: 'icon-'
@@ -168,6 +169,7 @@ module.exports = function(grunt) {
           fontFamilyName: 'EBI-SocialMedia',
           fontFilename: 'EBI-SocialMedia',
           types: 'woff,woff2,ttf',
+          template: 'templates/font-individual.css',
           templateOptions: {
             baseClass: 'icon-socialmedia',
             classPrefix: 'icon-'
@@ -206,6 +208,7 @@ module.exports = function(grunt) {
           fontFamilyName: 'EBI-Generic',
           fontFilename: 'EBI-Generic',
           types: 'woff,woff2,ttf',
+          template: 'templates/font-individual.css',
           templateOptions: {
             baseClass: 'icon-generic',
             classPrefix: 'icon-'
@@ -294,6 +297,7 @@ module.exports = function(grunt) {
           fontFamilyName: 'EBI-Functional',
           fontFilename: 'EBI-Functional',
           types: 'woff,woff2,ttf',
+          template: 'templates/font-individual.css',
           templateOptions: {
             baseClass: 'icon-functional',
             classPrefix: 'icon-'
@@ -377,6 +381,7 @@ module.exports = function(grunt) {
           fontFamilyName: 'EBI-Conceptual',
           fontFilename: 'EBI-Conceptual',
           types: 'woff,woff2,ttf',
+          template: 'templates/font-individual.css',
           templateOptions: {
             baseClass: 'icon-conceptual',
             classPrefix: 'icon-'
@@ -405,6 +410,7 @@ module.exports = function(grunt) {
           fontFamilyName: 'EBI-FileFormats',
           fontFilename: 'EBI-FileFormats',
           types: 'woff,woff2,ttf',
+          template: 'templates/font-individual.css',
           templateOptions: {
             baseClass: 'icon-fileformats',
             classPrefix: 'icon-'
@@ -451,6 +457,7 @@ module.exports = function(grunt) {
           fontFamilyName: 'EBI-Chemistry',
           fontFilename: 'EBI-Chemistry',
           types: 'woff,woff2,ttf',
+          template: 'templates/font-individual.css',
           templateOptions: {
             baseClass: 'icon-chemistry',
             classPrefix: 'icon-'
@@ -508,7 +515,6 @@ module.exports = function(grunt) {
           options: {
             // enhanceSVG: true,
             "previewTemplate": "templates/preview.hbs",
-            // "template":        "templates/css.hbs",
             colors: {
               "white": "#ffffff"
             }
@@ -616,14 +622,15 @@ module.exports = function(grunt) {
       files: {
         debug: true,
         src: [
-          'templates/partial.html'
+          'templates/partial.html',
+          'templates/fonts.css'
         ],
         dest: '.', // Destination directory
         flatten: true,
         cwd: '.',
         options: {
           // silent: true,
-          banner: '<!-- I am a banner <% includes.files.dest %> -->',
+          // banner: '<!-- To be consumed by the EBI Style Lab -->',
           includePath: [
             'EBI-Chemistry/fonts/',
             'EBI-Conceptual/fonts/',

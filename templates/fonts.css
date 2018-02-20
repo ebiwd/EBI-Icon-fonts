@@ -144,3 +144,12 @@ html .icon-chemistry:before {
 .icon-s11:before { color: #f7941e; }  /* SlideShare */
 .icon-s12:before { color: #21759b; }  /* Wordpress */
 .icon-s13:before { color: #fa9b39; }  /* RSS */
+
+
+include "EBI-Generic.css"
+include "EBI-Chemistry.css"
+include "EBI-Conceptual.css"
+include "EBI-FileFormats.css"
+include "EBI-Functional.css"
+include "EBI-Species.css"
+include "EBI-SocialMedia.css"

@@ -1,6 +1,19 @@
 /* Icons
 =================================================== */
 
+/* A set of generic utility icons.
+ * - Merges the former EBI-Social, EBI-Generic, EBI-Functional
+ * - EBI-Functional key mappings have not changed
+ * - Adds non-redundant icons from Font Awesome
+ * See note at https://github.com/ebiwd/EBI-Icon-fonts/issues/22
+*/
+@font-face {
+  font-family: 'EBI-Common';
+  src:url('EBI-Common/fonts/EBI-Common.woff2') format('woff2'),
+    url('EBI-Common/fonts/EBI-Common.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 /* Biological concepts and top-level icons (e.g. Services, Research, etc. */
 @font-face {
   font-family: 'EBI-Conceptual';
@@ -10,6 +23,9 @@
   font-style: normal;
 }
 /* Generic, functional or activity-orientated icons */
+/* !LEGACY! Will  be remvoed in v1.4
+ * See note at https://github.com/ebiwd/EBI-Icon-fonts/issues/22
+ */
 @font-face {
   font-family: 'EBI-Functional';
   src:url('EBI-Functional/fonts/EBI-Functional.woff2') format('woff2'),
@@ -18,6 +34,9 @@
   font-style: normal;
 }
 /* Generic icons that can be used as decoration or emphasis */
+/* !LEGACY! Will  be remvoed in v1.4
+ * See note at https://github.com/ebiwd/EBI-Icon-fonts/issues/22
+ */
 @font-face {
   font-family: 'EBI-Generic';
   src:url('EBI-Generic/fonts/EBI-Generic.woff2') format('woff2'),
@@ -34,6 +53,9 @@
   font-style: normal;
 }
 /* Icons for social media */
+/* !LEGACY! Will  be remvoed in v1.4
+ * See note at https://github.com/ebiwd/EBI-Icon-fonts/issues/22
+ */
 @font-face {
   font-family: 'EBI-SocialMedia';
   src:url('EBI-SocialMedia/fonts/EBI-SocialMedia.woff2') format('woff2'),

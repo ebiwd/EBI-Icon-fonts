@@ -90,6 +90,8 @@
   background-size: contain;
   font-weight: 400;
 }
+input.icon-common,
+.icon-common:before,
 input.icon-conceptual,
 .icon-conceptual:before,
 input.icon-functional,
@@ -105,6 +107,11 @@ input.icon-fileformats,
 input.icon-chemistry,
 .icon-chemistry:before {
   content: attr(data-icon);
+}
+html i.icon-common,
+html input.icon-common,
+html .icon-common:before {
+  font-family: 'EBI-Common';
 }
 html i.icon-conceptual,
 html input.icon-conceptual,
@@ -144,29 +151,6 @@ html .icon-chemistry:before {
 /* icon utility class */
 .icon.icon-spacer:before { padding-right: .5rem; }
 
-/* Custom colouring from some globally-used icons */
-.icon-c1:before { color: #dac79d; }  /* DNA & RNA */
-.icon-c2:before { color: #dab7e2; }  /* Gene expression */
-.icon-c3:before { color: #62d0df; }  /* Proteins */
-.icon-c4:before { color: #afc9b8; }  /* Structures */
-.icon-c5:before { color: #ffb4aa; }  /* Systems */
-.icon-c6:before { color: #ffc999; }  /* Chem bio */
-.icon-c7:before { color: #bec3d9; }  /* Ontologies */
-.icon-c8:before { color: #c5d4a3; }  /* Literature & patents */
-.icon-c9:before { color: #a4c7e2; }  /* Cross-domain */
-.icon-s1:before { color: #3b5998; }  /* Facebook */
-.icon-s2:before { color: #55acee; }  /* Twitter */
-.icon-s3:before { color: #007bb6; }  /* LinkedIn */
-.icon-s4:before { color: #ff6600; }  /* Blogger */
-.icon-s5:before { color: #a6c83f; }  /* Orcid */
-.icon-s6:before { color: #dd4b39; }  /* Google+ */
-.icon-s7:before { color: #bb0000; }  /* YouTube */
-.icon-s8:before { color: #f40083; }  /* Flikr */
-.icon-s9:before { color: #1ab7ea; }  /* Vimeo */
-.icon-s10:before { color: #00bcf2; }  /* Windows */
-.icon-s11:before { color: #f7941e; }  /* SlideShare */
-.icon-s12:before { color: #21759b; }  /* Wordpress */
-.icon-s13:before { color: #fa9b39; }  /* RSS */
 
 
 include "EBI-Chemistry.css"

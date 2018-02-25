@@ -169,10 +169,11 @@ html .icon-chemistry:before {
 .icon-s13:before { color: #fa9b39; }  /* RSS */
 
 
-include "EBI-Generic.css"
 include "EBI-Chemistry.css"
+include "EBI-Common.css"
 include "EBI-Conceptual.css"
 include "EBI-FileFormats.css"
 include "EBI-Functional.css"
-include "EBI-Species.css"
+include "EBI-Generic.css"
 include "EBI-SocialMedia.css"
+include "EBI-Species.css"

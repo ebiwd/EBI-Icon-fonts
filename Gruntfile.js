@@ -813,6 +813,7 @@ module.exports = function(grunt) {
           includePath: [
             'EBI-Chemistry/fonts/',
             'EBI-Conceptual/fonts/',
+            'EBI-Common/fonts/',
             'EBI-FileFormats/fonts/',
             'EBI-Functional/fonts/',
             'EBI-Generic/fonts/',

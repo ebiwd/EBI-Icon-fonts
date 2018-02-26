@@ -12,6 +12,19 @@ Icons are added automatically through CSS using the <code>:before</code> feature
 
 ## What's new in v1.3?
 
+This version brings the most user-facing changes in several years as we've added in far more "common" icons and simplified the font stack.
+
+The new EBI-Common font:
+- Is a set of generic utility icons
+- Merges the former EBI-Social, EBI-Generic, EBI-Functional
+- Key mapping for the old EBI-Social and EBI-Generic have changed (see mappings below)
+- EBI-Functional key mappings have not changed
+- Adds non-redundant icons from Font Awesome
+
+For more background on the change, <a href="https://github.com/ebiwd/EBI-Icon-fonts/issues/22">see the notes</a>.
+
+There have also been a number of ["under the hood" changes in v1.3](https://github.com/ebiwd/EBI-Icon-fonts/issues/21):
+
 - The new version is a backwards compatible release, just point your css include to `https://ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.3/fonts.css`
 - v1.3 and onwards are only available on the ebi.emblstatic.net CDN
 - New icons are only added to the current version (v1.3) and are not added to v1.1 or v1.2
@@ -21,7 +34,7 @@ Icons are added automatically through CSS using the <code>:before</code> feature
     - `class=".icon.icon-generic.icon-alert"` and `class="icon icon-generic" data-icon="l"`
 - We now send over only the [woff and woff2 formats](https://github.com/ebiwd/EBI-Icon-fonts/issues/17)
 
-For more, [see the roadmap](https://github.com/ebiwd/EBI-Icon-fonts/issues/21).
+[View all the icons and usage information at this gallery](https://www.ebi.ac.uk/style-lab/general/fonts/).
 
 ## Need a new icon?
 

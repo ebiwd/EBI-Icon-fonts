@@ -3,8 +3,8 @@
   <thead>
     <tr>
       <th class="small-4" id="<%= fontFamilyName %>" data-magellan-target="<%= fontFamilyName %>"><%= fontFamilyName %> <% if (version) { %><% } %></th>
-      <th class="small-5 kbd small">HTML</th>
-      <th class="show-for-medium kbd small">Keycode</th>
+      <th class="small-5 kbd small">HTML with hex</th>
+      <th class="show-for-medium kbd small">Letter</th>
       <th class="show-for-medium kbd small">Class</th>
     </tr>
   </thead>
@@ -21,11 +21,10 @@
         });
         %>
         <% var glyphPretty = _(glyph).pretify(); %>
-        <td><span class="icon <%= baseClass %> icon-spacer" data-icon="<%= charcode %>"></span><%= glyphPretty %></td>
+        <td><span class="lead icon <%= baseClass %> icon-spacer" data-icon="<%= charcode %>"></span><%= glyphPretty %></td>
         <td>&lt;i class="icon <%= baseClass %>" data-icon="<%- charcode %>"&gt;&lt;/i&gt;</td>
         <td><%= charcode %></td>
         <td>
-          <i class="icon <%= baseClass %> <%= classPrefix %><%= _(glyph) %>"></i>
           class="icon <%= baseClass %> <%= classPrefix %><%= _(glyph) %>"
         </td>
       </tr>

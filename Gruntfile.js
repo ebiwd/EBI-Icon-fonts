@@ -884,7 +884,6 @@ module.exports = function(grunt) {
             'lightbulb': 0x00eb,
             'link': 0x00c1,
             'lira-sign': 0x0195,
-            'list-alt': 0xf126,
             'list-ol': 0xf127,
             'list-ul': 0x00cb,
             'list': 0x00ca,

@@ -879,8 +879,6 @@ module.exports = function(grunt) {
             'inbox': 0x001c,
             'indent': 0xf12d,
             'industry': 0x0275,
-            'info-circle': 0x0129,
-            'info': 0x005a,
             'italic': 0xf123,
             'key': 0xf12f,
             'keyboard': 0x011c,

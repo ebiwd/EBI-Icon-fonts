@@ -83,7 +83,7 @@ module.exports = function(grunt) {
         // destCss: 'EBI-Species',
         options: {
           version: version,
-          ligatures: true,
+          // ligatures: true,
           font: 'EBI-Species',
           fontFamilyName: 'EBI-Species',
           fontFilename: 'EBI-Species',

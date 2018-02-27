@@ -489,6 +489,8 @@ module.exports = function(grunt) {
           version: version,
           // ligatures: true,
           // ligatures would be really nice, but we have to get rid of hyphens
+          // and there appears to be some other oddness about what renders and what
+          // wont...
           // https://github.com/sapegin/grunt-webfont/issues/167
           normalize: true, // as some icons are now depeninding on keycode
           font: 'EBI-Common',

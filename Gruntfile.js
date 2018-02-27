@@ -369,7 +369,7 @@ module.exports = function(grunt) {
             'unlock': 0x0055,
             'up-page': 0x2b06,
             'view': 0x0034,
-            'zoom-in': 0x0033.
+            'zoom-in': 0x0033,
             'zoom-out': 0x0032
           }
         }

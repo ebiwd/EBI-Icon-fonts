@@ -169,7 +169,7 @@ module.exports = function(grunt) {
         // destCss: 'EBI-SocialMedia',
         options: {
           version: version,
-          ligatures: true,
+          // ligatures: true,
           font: 'EBI-SocialMedia',
           fontFamilyName: 'EBI-SocialMedia',
           fontFilename: 'EBI-SocialMedia',
@@ -209,7 +209,7 @@ module.exports = function(grunt) {
         // destCss: 'EBI-Generic',
         options: {
           version: version,
-          ligatures: true,
+          // ligatures: true,
           font: 'EBI-Generic',
           fontFamilyName: 'EBI-Generic',
           fontFilename: 'EBI-Generic',
@@ -299,7 +299,7 @@ module.exports = function(grunt) {
         // destCss: 'EBI-Functional',
         options: {
           version: version,
-          ligatures: true,
+          // ligatures: true,
           font: 'EBI-Functional',
           fontFamilyName: 'EBI-Functional',
           fontFilename: 'EBI-Functional',
@@ -384,7 +384,7 @@ module.exports = function(grunt) {
         // destCss: 'EBI-Conceptual',
         options: {
           version: version,
-          ligatures: true,
+          // ligatures: true,
           font: 'EBI-Conceptual',
           fontFamilyName: 'EBI-Conceptual',
           fontFilename: 'EBI-Conceptual',
@@ -414,7 +414,7 @@ module.exports = function(grunt) {
         // destCss: 'EBI-FileFormats',
         options: {
           version: version,
-          ligatures: true,
+          // ligatures: true,
           font: 'EBI-FileFormats',
           fontFamilyName: 'EBI-FileFormats',
           fontFilename: 'EBI-FileFormats',
@@ -462,7 +462,7 @@ module.exports = function(grunt) {
         // destCss: 'EBI-Chemistry',
         options: {
           version: version,
-          ligatures: true,
+          // ligatures: true,
           font: 'EBI-Chemistry',
           fontFamilyName: 'EBI-Chemistry',
           fontFilename: 'EBI-Chemistry',
@@ -487,7 +487,9 @@ module.exports = function(grunt) {
         // destCss: 'EBI-SocialMedia',
         options: {
           version: version,
-          ligatures: true,
+          // ligatures: true,
+          // ligatures would be really nice, but we have to get rid of hyphens
+          // https://github.com/sapegin/grunt-webfont/issues/167
           normalize: true, // as some icons are now depeninding on keycode
           font: 'EBI-Common',
           fontFamilyName: 'EBI-Common',

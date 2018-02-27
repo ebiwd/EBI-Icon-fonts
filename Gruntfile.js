@@ -353,7 +353,7 @@ module.exports = function(grunt) {
             'refresh': 0x0052,
             'remove': 0x002d,
             'remove-user': 0x0036,
-            // 'save': 0x0053,
+            'save': 0x0053,
             'scaleable': 0x0059,
             'search': 0x0031,
             'search-document': 0x006a,
@@ -368,9 +368,9 @@ module.exports = function(grunt) {
             'undo': 0x007b,
             'unlock': 0x0055,
             'up-page': 0x2b06,
-            // 'view': 0x0034,
-            'zoom-in': 0x0033
-            // 'zoom-out': 0x0032
+            'view': 0x0034,
+            'zoom-in': 0x0033.
+            'zoom-out': 0x0032
           }
         }
       },
@@ -707,7 +707,7 @@ module.exports = function(grunt) {
             'binoculars': 0x01e5,
             'birthday-cake': 0x01fd,
             'blind': 0x029d,
-            'bold': 0x0032,
+            'bold': 0xf128,
             'bolt': 0x00e7,
             'bomb': 0x01e2,
             'book': 0xf10a,
@@ -750,7 +750,7 @@ module.exports = function(grunt) {
             'chevron-circle-right': 0x0138,
             'chevron-circle-up': 0x0139,
             'chevron-down': 0xf11a,
-            'chevron-left': 0x0053,
+            'chevron-left': 0xf12c,
             'chevron-right': 0xf10f,
             'chevron-up': 0xf11b,
             'child': 0x01ae,
@@ -1024,7 +1024,7 @@ module.exports = function(grunt) {
             'tasks': 0x00ae,
             'taxi': 0x01ba,
             'terminal': 0x0120,
-            'text-height': 0x0034,
+            'text-height': 0xf145,
             'text-width': 0xf139,
             'th-large': 0xf13a,
             'th-list': 0xf13b,

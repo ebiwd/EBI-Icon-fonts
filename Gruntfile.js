@@ -353,7 +353,7 @@ module.exports = function(grunt) {
             'refresh': 0x0052,
             'remove': 0x002d,
             'remove-user': 0x0036,
-            'save': 0x0053,
+            // 'save': 0x0053,
             'scaleable': 0x0059,
             'search': 0x0031,
             'search-document': 0x006a,
@@ -368,9 +368,9 @@ module.exports = function(grunt) {
             'undo': 0x007b,
             'unlock': 0x0055,
             'up-page': 0x2b06,
-            'view': 0x0034,
-            'zoom-in': 0x0033,
-            'zoom-out': 0x0032
+            // 'view': 0x0034,
+            'zoom-in': 0x0033
+            // 'zoom-out': 0x0032
           }
         }
       },

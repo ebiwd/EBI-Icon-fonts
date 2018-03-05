@@ -1,15 +1,17 @@
 <!-- Generate a partial to be consumed by EBI Style Lab -->
 <h3 class="padding-top-xlarge">The gallery</h3>
-<div class="row" id="thegallery">
-  <div class="columns medium-2" data-sticky-container>
+<div class="" id="thegallery">
+  <div class="" data-sticky-container>
     <div class="sticky" data-sticky data-sticky-on="medium" data-top-anchor="thegallery" data-btm-anchor="thegallery:bottom" data-margin-top="3">
-      <ul class="menu vertical" data-magellan>
-        <div class="input-group">
-          <span class="input-group-label"><i data-icon="1" class="icon icon-functional"></i></span>
-          <input class="filter clearable input-group-field" type="text" value="" placeholder="Filter these icons" />
+      <ul class="menu no-underline" data-magellan>
+        <div class="columns medium-3">
+          <div class="input-group">
+            <span class="input-group-label"><i data-icon="1" class="icon icon-functional"></i></span>
+            <input class="filter clearable input-group-field" type="text" value="" placeholder="Filter these icons" />
+          </div>
         </div>
-        <li><a href="#EBI-Chemistry">EBI-Chemistry</a></li>
         <li><a href="#EBI-Common">EBI-Common</a></li>
+        <li><a href="#EBI-Chemistry">EBI-Chemistry</a></li>
         <li><a href="#EBI-Conceptual">EBI-Conceptual</a></li>
         <li><a href="#EBI-FileFormats">EBI-FileFormats</a></li>
         <li><a href="#EBI-Species">EBI-Species</a></li>
@@ -17,11 +19,11 @@
     </div>
   </div>
 
-  <div id="icon-font-rows" class="columns medium-10">
-    include "EBI-Common.html"
-    include "EBI-Chemistry.html"
-    include "EBI-Conceptual.html"
-    include "EBI-FileFormats.html"
-    include "EBI-Species.html"
+  <div id="icon-font-rows" class=" medium-up-3">
+  include "EBI-Common.html"
+  include "EBI-Chemistry.html"
+  include "EBI-Conceptual.html"
+  include "EBI-FileFormats.html"
+  include "EBI-Species.html"
   </div>
 </div>

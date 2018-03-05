@@ -1,33 +1,31 @@
 <!-- This will be embeded into a master preview at http://www.ebi.ac.uk/style-lab/ -->
-<table class="responsive-table">
-  <thead>
-    <tr>
-      <th class="small-4" id="<%= fontFamilyName %>" data-magellan-target="<%= fontFamilyName %>"><%= fontFamilyName %> <% if (version) { %><% } %></th>
-      <th class="small-5 kbd small">HTML with hex</th>
-      <th class="show-for-medium kbd small">Letter</th>
-      <th class="show-for-medium kbd small">Class</th>
-    </tr>
-  </thead>
-  <tbody>
-    <% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { var glyph = glyphs[glyphIdx] %>
-      <% var charcode = '&#x' + codepoints[glyphIdx] %>
-      <tr>
-        <%
-        _.mixin({
-          pretify: function(string) {
-            string = string.replace(/_id$/, '').replace(/_/g, ' ').replace(/-/g, ' ');
-            return string.charAt(0).toUpperCase() + string.substring(1).toLowerCase();
-          }
-        });
-        %>
-        <% var glyphPretty = _(glyph).pretify(); %>
-        <td><span class="lead icon <%= baseClass %> icon-spacer" data-icon="<%= charcode %>"></span><%= glyphPretty %></td>
-        <td>&lt;i class="icon <%= baseClass %>" data-icon="<%- charcode %>;"&gt;&lt;/i&gt;</td>
-        <td><%= charcode %></td>
-        <td>
-          class="icon <%= baseClass %> <%= classPrefix %><%= _(glyph) %>"
-        </td>
-      </tr>
-    <% } %>
-  </tbody>
-</table>
+<h3 class="clear padding-top-xlarge row padding-left-xlarge" id="<%= fontFamilyName %>" data-magellan-target="<%= fontFamilyName %>"><%= fontFamilyName %> <% if (version) { %><% } %></h3>
+<% for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) { var glyph = glyphs[glyphIdx] %>
+  <% var charcode = '&#x' + codepoints[glyphIdx] %>
+  <%
+  _.mixin({
+    pretify: function(string) {
+      string = string.replace(/_id$/, '').replace(/_/g, ' ').replace(/-/g, ' ');
+      return string.charAt(0).toUpperCase() + string.substring(1).toLowerCase();
+    }
+  });
+  %>
+  <% var glyphPretty = _(glyph).pretify(); %>
+  <div class="column callout white-background">
+    <span class="size-400 icon <%= baseClass %> icon-spacer" data-icon="<%= charcode %>"></span>
+    <span class="icon <%= baseClass %> icon-spacer" data-icon="<%= charcode %>"></span><%= glyphPretty %>
+    <div class=" small">
+      <span class="label">HTML with hex</span>
+      <p class="code">&lt;i class="icon <%= baseClass %>" data-icon="<%- charcode %>;"&gt;&lt;/i&gt;</p>
+
+    </div>
+    <div class="small">
+      <span class="label">Class</span>
+      <p class="code">class="icon <%= baseClass %> <%= classPrefix %><%= _(glyph) %>"</p>
+    </div>
+    <div class="small">
+      <span class="label">Letter</span>
+      <span class="kbd"><%= charcode %></span>
+    </div>
+  </div>
+<% } %>

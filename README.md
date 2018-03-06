@@ -47,6 +47,7 @@ If you're in need of an icon for a squirrel, bucket, or something useful: [use t
 - NPM users can get the code from [npmjs.com/package/EBI-Icon-fonts](https://www.npmjs.com/package/EBI-Icon-fonts)
 - React users that are working with the EBI Species icons should check out [wbazant/react-ebi-species](https://www.npmjs.com/package/react-ebi-species)
 - We suggest using with the [EBI Visual Framework v1.3](https://github.com/ebiwd/EBI-Framework/tree/v1.3), but older versions work -- and you don't even really need to use the EBI Visual Framework at all.
+- Need desktop fonts? [Get them from the Style Lab](https://www.ebi.ac.uk/style-lab/general/fonts/v1.3#desktop).
 
 # Code structure, developing the fonts
 

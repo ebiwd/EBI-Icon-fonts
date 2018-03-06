@@ -151,8 +151,6 @@ html .icon-chemistry:before {
 /* icon utility class */
 .icon.icon-spacer:before { padding-right: .5rem; }
 
-
-
 include "EBI-Chemistry.css"
 include "EBI-Common.css"
 include "EBI-Conceptual.css"

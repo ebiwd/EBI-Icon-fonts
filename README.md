@@ -92,4 +92,4 @@ Build the fonts with the docker image (as used by gitlab) as follows
 `docker run -it --rm -v $PWD:/workspace -w /workspace ebiwd/node-fontforge-grunt:6 sh -c 'npm install && grunt'`
 
 # Licensing
-EMBL-EBI created icons and the project are licensed under an Apache 2.0 and [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/) your choice. Non-EMBL-EBI created elements are licensed under their indicated license.   
+EMBL-EBI created icons and the project are licenced under an Apache 2.0 and [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Non-EMBL-EBI created elements are licenced under their indicated licence. For more information, see [LICENSE.md](LICENSE.md)

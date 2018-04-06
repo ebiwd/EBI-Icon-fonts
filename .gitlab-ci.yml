@@ -18,6 +18,8 @@ variables:
   
 #setup ssh keys
 .deploy_setup: &deploy_setup
+  tags:
+    - docker
   before_script:
     - mkdir ~/.ssh
     - echo -e "${SSH_KEY}" >> ~/.ssh/${SSH_USER} && chmod 400 ~/.ssh/${SSH_USER}
@@ -53,6 +55,8 @@ deploy_live:
 deploy_aws_dev:
   image: ebiwd/alpine-ssh
   stage: deploy
+  tags:
+    - docker
   before_script:
     - add-aws-key ${AWS_KEY} ${AWS_SECRET}
   script: 
@@ -65,6 +69,8 @@ deploy_aws_dev:
 deploy_aws_live:
   image: ebiwd/alpine-ssh
   stage: deploy
+  tags:
+    - docker
   before_script:
     - add-aws-key ${AWS_KEY} ${AWS_SECRET}
   script: 

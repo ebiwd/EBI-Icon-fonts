@@ -404,6 +404,7 @@ module.exports = function(grunt) {
             'ontology': 0x006f,
             'proteins': 0x0050,
             'structures': 0x0073,
+            'structures-3d': 0x0053,
             'systems': 0x0079
           }
         }

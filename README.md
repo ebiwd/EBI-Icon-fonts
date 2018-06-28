@@ -76,7 +76,7 @@ The git repo does not contain the compiled font assets. If you're a developer lo
 
 1. Clone the repo
 2. Run `npm install` and you may also need to (Mac oriented commands)
-  - `sudo npm install grunt-cli -g`
+  - `npm install grunt-cli -g`
   - install brew: https://brew.sh/
   - install grunt-webfont dependencies: https://github.com/sapegin/grunt-webfont#installation
 3. Build the files by running the [Gruntfile.js](https://github.com/ebiwd/EBI-Icon-fonts/blob/v1.3/Gruntfile.js) tasks with:

@@ -3,9 +3,9 @@
  */
 
 /* A set of generic utility icons.
- * - Merges the former EBI-Social, EBI-Generic, EBI-Functional
- * - EBI-Functional key mappings have not changed
+ * - Merges icons from EBI-Social, EBI-Generic, EBI-Functional
  * - Adds non-redundant icons from Font Awesome
+ * - EBI-Functional key mappings have not changed
  * See note at https://github.com/ebiwd/EBI-Icon-fonts/issues/22
 */
 @font-face {
@@ -24,9 +24,6 @@
   font-style: normal;
 }
 /* Generic, functional or activity-orientated icons */
-/* !LEGACY! Will  be remvoed in v1.4
- * See note at https://github.com/ebiwd/EBI-Icon-fonts/issues/22
- */
 @font-face {
   font-family: 'EBI-Functional';
   src:url('EBI-Functional/fonts/EBI-Functional.woff2') format('woff2'),
@@ -35,9 +32,6 @@
   font-style: normal;
 }
 /* Generic icons that can be used as decoration or emphasis */
-/* !LEGACY! Will  be remvoed in v1.4
- * See note at https://github.com/ebiwd/EBI-Icon-fonts/issues/22
- */
 @font-face {
   font-family: 'EBI-Generic';
   src:url('EBI-Generic/fonts/EBI-Generic.woff2') format('woff2'),
@@ -159,3 +153,18 @@ include "EBI-Functional.css"
 include "EBI-Generic.css"
 include "EBI-SocialMedia.css"
 include "EBI-Species.css"
+
+/* Don't speak icons that don't have aria-label
+   https://github.com/ebiwd/EBI-Icon-fonts/issues/25
+   */
+@media speech {
+  .icon.icon-common:not([aria-label]),
+  .icon.icon-socialmedia:not([aria-label]),
+  .icon.icon-species:not([aria-label]),
+  .icon.icon-generic:not([aria-label]),
+  .icon.icon-fileformats:not([aria-label]),
+  .icon.icon-functional:not([aria-label]),
+  .icon.icon-chemistry:not([aria-label]) {
+    display:none;
+  }
+}

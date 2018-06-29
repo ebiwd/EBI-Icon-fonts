@@ -14,31 +14,26 @@ Icons are added automatically through CSS using the <code>:before</code> feature
 
 This version brings the most user-facing changes in several years as we've added in far more "common" icons and simplified the font stack.
 
-The new EBI-Common font:
-- Is a set of generic utility icons
-- Merges the former EBI-Social, EBI-Generic, EBI-Functional
-- Key mapping for the old EBI-Social and EBI-Generic have changed (see mappings below)
-- EBI-Functional key mappings have not changed
-- Adds non-redundant icons from Font Awesome
-
-For more background on the change, <a href="https://github.com/ebiwd/EBI-Icon-fonts/issues/22">see the notes</a>.
-
-There have also been a number of ["under the hood" changes in v1.3](https://github.com/ebiwd/EBI-Icon-fonts/issues/21):
-
+- A new `EBI-Common` that supersedes EBI-Social, EBI-Generic, EBI-Functional and adds Font Awesome icons
 - The new version is a backwards compatible release, just point your css include to `https://ebi.emblstatic.net/web_guidelines/EBI-Icon-fonts/v1.3/fonts.css`
 - v1.3 and onwards are only available on the ebi.emblstatic.net CDN
 - New icons are only added to the current version (v1.3) and are not added to v1.1 or v1.2
 - We now show the escaped unicode and along with its rendered variant in the gallery:
     -  `data-icon="&#x61"` and `data-icon="&amp;#x61"`
 - You are able to select icons by data attributes and classes
-    - `class=".icon.icon-generic.icon-alert"` and `class="icon icon-generic" data-icon="l"`
+    - `class="icon icon-generic icon-alert"` and `class="icon icon-generic" data-icon="l"`
 - We now send over only the [woff and woff2 formats](https://github.com/ebiwd/EBI-Icon-fonts/issues/17)
+- See also issues #22, #21
 
-[View all the icons and usage information at this gallery](https://www.ebi.ac.uk/style-lab/general/fonts/).
+[View all the icons and usage information at this gallery](https://www.ebi.ac.uk/style-lab/general/fonts/v1.3/).
 
 ## Need a new icon?
 
 If you're in need of an icon for a squirrel, bucket, or something useful: [use this form](https://docs.google.com/a/ebi.ac.uk/forms/d/e/1FAIpQLSe7_lFbhVdt-AJeGQChjkiab642nDkfKTVoNQRosPAKuBP3_g/viewform?c=0&w=1).
+
+### Want to fork an icon?
+
+PR welcome. And if you want to fork a Font Awesome icon, see EBI-Icon-fonts/source/common/font-awesome/README.md
 
 ## Using these fonts in your project
 

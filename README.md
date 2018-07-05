@@ -88,3 +88,5 @@ Build the fonts with the docker image (as used by gitlab) as follows
 
 # Licensing
 EMBL-EBI created icons and the project are licenced under an Apache 2.0 and [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Non-EMBL-EBI created elements are licenced under their indicated licence. For more information, see [LICENSE.md](LICENSE.md)
+
+This project also uses Font Awesome icons, those icons are licenced [as specified in the respective LICENSE.txt](https://github.com/ebiwd/EBI-Icon-fonts/blob/v1.3/source/common/font-awesome/LICENSE.txt).

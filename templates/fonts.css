@@ -102,34 +102,34 @@ input.icon-chemistry,
 .icon-chemistry:before {
   content: attr(data-icon);
 }
-html i.icon-common,
-html input.icon-common,
-html .icon-common:before {
+i.icon-common,
+input.icon-common,
+.icon-common:before {
   font-family: 'EBI-Common';
 }
-html i.icon-conceptual,
-html input.icon-conceptual,
-html .icon-conceptual:before {
+i.icon-conceptual,
+input.icon-conceptual,
+.icon-conceptual:before {
   font-family: 'EBI-Conceptual';
 }
-html i.icon-functional,
-html input.icon-functional,
-html .icon-functional:before {
+i.icon-functional,
+input.icon-functional,
+.icon-functional:before {
   font-family: 'EBI-Functional';
 }
-html i.icon-generic,
-html input.icon-generic,
-html .icon-generic:before {
+i.icon-generic,
+input.icon-generic,
+.icon-generic:before {
   font-family: 'EBI-Generic';
 }
-html i.icon-species,
-html input.icon-species,
-html .icon-species:before {
+i.icon-species,
+input.icon-species,
+.icon-species:before {
   font-family: 'EBI-Species';
 }
-html i.icon-socialmedia,
-html input.icon-socialmedia,
-html .icon-socialmedia:before {
+i.icon-socialmedia,
+input.icon-socialmedia,
+.icon-socialmedia:before {
   font-family: 'EBI-SocialMedia';
 }
 input.icon-fileformats,
@@ -137,9 +137,9 @@ input.icon-fileformats,
   font-size: 123.1%;
   font-family: 'EBI-FileFormats';
 }
-html i.icon-chemistry,
-html input.icon-chemistry,
-html .icon-chemistry:before {
+i.icon-chemistry,
+input.icon-chemistry,
+.icon-chemistry:before {
   font-family: 'EBI-Chemistry';
 }
 /* icon utility class */

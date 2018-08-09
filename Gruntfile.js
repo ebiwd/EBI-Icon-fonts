@@ -2108,6 +2108,7 @@ module.exports = function(grunt) {
             'filter': 0x0066,
             'first-page': 0x005b,
             'fullscreen': 0x0046,
+            'fullscreen-collapse': 0x0047,
             'hierarchy': 0x0068,
             'last-page': 0x005d,
             'lock': 0x004c,

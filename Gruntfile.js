@@ -1724,6 +1724,7 @@ module.exports = function(grunt) {
             'parachute-box': 0x0f4cd,
             'paragraph': 0x0f1dd,
             'parking': 0x0f540,
+            'passport': 0x0f5ab,
             'paste': 0x0f0ea,
             'patreon': 0x0f3d9,
             'pause': 0x0f04c,

@@ -112,6 +112,7 @@ input.icon-fileformats,
 input.icon-chemistry,
 .icon-chemistry:before {
   content: attr(data-icon);
+  text-transform: none;
 }
 i.icon-common,
 input.icon-common,

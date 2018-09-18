@@ -94,7 +94,6 @@
   text-rendering: optimizeLegibility !important;
   background-size: contain;
   font-weight: 400;
-  text-transform: none;
 }
 input.icon-conceptual,
 .icon-conceptual:before,

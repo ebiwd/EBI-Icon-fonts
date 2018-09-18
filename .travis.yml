@@ -1,0 +1,21 @@
+language: node_js
+
+node_js:
+  - stable
+
+install:
+  - npm install
+
+before_script:
+  - sudo apt-get install fontforge
+  - npm install grunt-cli -g
+
+script: grunt
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  target_branch: v1.2
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  on:
+    branch: v1.2-code

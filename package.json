@@ -1,0 +1,23 @@
+{
+  "name": "EBI-Icon-fonts",
+  "description": "A collection of functional and scientific icons",
+  "version": "1.2.3",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ebiwd/EBI-Icon-fonts.git"
+  },
+  "author": {
+    "name": "EBI Web Development",
+    "email": "khawkins@ebi.ac.uk",
+    "url": "https://github.com/ebiwd"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-grunticon": "^2.3.1",
+    "grunt-includes": "^1.0.0",
+    "grunt-svgmin": "^4.0.0",
+    "grunt-webfont": "^1.6.0"
+  }
+}

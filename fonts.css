@@ -110,6 +110,7 @@ input.icon-fileformats,
 input.icon-chemistry,
 .icon-chemistry:before {
   content: attr(data-icon);
+  text-transform: none;
 }
 html i.icon-conceptual,
 html input.icon-conceptual,

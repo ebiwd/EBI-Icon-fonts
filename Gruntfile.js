@@ -2176,7 +2176,7 @@ module.exports = function(grunt) {
             'mailing-list': 0xf2d4,
             'math': 0xf2df,
             'meet-us': 0xf2e1,
-            'new': 0xf2e4,
+            'new': 0xf2e3,
             'newcomers': 0xf2e4,
             'nutraceuticals': 0xf2e8,
             'open-day': 0xf2e9,

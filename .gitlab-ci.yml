@@ -15,7 +15,7 @@ variables:
   SSH_KEY: secret-key
   AWS_KEY: key
   AWS_SECRET: secret-key
-  
+
 #setup ssh keys
 .deploy_setup: &deploy_setup
   tags:
@@ -24,7 +24,7 @@ variables:
     - mkdir ~/.ssh
     - echo -e "${SSH_KEY}" >> ~/.ssh/${SSH_USER} && chmod 400 ~/.ssh/${SSH_USER}
     - echo -e "Host *\n\tIdentityFile ~/.ssh/%r\n\tStrictHostKeyChecking no" >> ~/.ssh/config
-    
+
 stages:
   - build
   - deploy
@@ -32,6 +32,7 @@ stages:
 build:
   stage: build
   image: ebiwd/node-fontforge-grunt:6
+  # https://github.com/ebiwd/dockerfile-node-fontforge-grunt/blob/master/Dockerfile
   tags:
     - docker
   before_script:
@@ -52,27 +53,27 @@ build:
 deploy_dev:
   <<: *deploy_setup
   stage: deploy
-  script: 
+  script:
     - ssh -t ${SSH_USER}@${SERVER_DEV} ${SCRIPT_DEV}
-  only: 
+  only:
     - branches
   except:
     - /-code$/
-  environment: 
+  environment:
     name: dev
     url: ${DEV_URL}
-    
+
 deploy_live:
   <<: *deploy_setup
   stage: deploy
-  script: 
+  script:
     - ssh -t ${SSH_USER}@${SERVER_PROD} ${SCRIPT_PROD}
-  only: 
+  only:
     - tags
-  environment: 
+  environment:
     name: live
     url: ${LIVE_URL}
-    
+
 deploy_aws_dev:
   image: ebiwd/alpine-ssh
   stage: deploy
@@ -80,9 +81,9 @@ deploy_aws_dev:
     - docker
   before_script:
     - add-aws-key ${AWS_KEY} ${AWS_SECRET}
-  script: 
+  script:
     - bin/deploy-aws
-  only: 
+  only:
     - branches
   except:
     - /-code$/
@@ -94,7 +95,7 @@ deploy_aws_live:
     - docker
   before_script:
     - add-aws-key ${AWS_KEY} ${AWS_SECRET}
-  script: 
+  script:
     - bin/deploy-aws prod
-  only: 
+  only:
     - tags

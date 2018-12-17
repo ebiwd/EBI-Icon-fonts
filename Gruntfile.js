@@ -149,6 +149,7 @@ module.exports = function(grunt) {
             'finch': 0x006e,
             'hedgehog': 0x006f,
             'pig': 0x0070,
+            'marmoset': 0x0071,
             'monkey': 0x0072,
             'scorpion': 0x0073,
             'rabbit': 0x0074,

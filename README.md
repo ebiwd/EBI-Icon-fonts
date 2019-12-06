@@ -76,11 +76,12 @@ The git repo does not contain the compiled font assets. If you're a developer lo
   - install grunt-webfont dependencies: https://github.com/sapegin/grunt-webfont#installation
 3. Build the files by running the [Gruntfile.js](https://github.com/ebiwd/EBI-Icon-fonts/blob/v1.3/Gruntfile.js) tasks with:
   - `grunt` master build of all below tasks
-  - `grunt svgmin` minify svg source files
   - `grunt webfont` generate the webfont files
   - `grunt grunticon` make the png static files
   - `grunt copy` copy svg source files into font static files
   - `grunt webfont && grunt includes` regenerate the HTML templates
+4. Optional tasks
+  - `grunt svgmin` minify svg source files
 
 ## Docker build
 Build the fonts with the docker image (as used by gitlab) as follows

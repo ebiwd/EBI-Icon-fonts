@@ -2462,6 +2462,6 @@ module.exports = function(grunt) {
     //     }
     // }
   });
-  grunt.registerTask('default', ['svgmin','webfont','grunticon','copy','includes']);
+  grunt.registerTask('default', ['webfont','grunticon','copy','includes']);
 
 };

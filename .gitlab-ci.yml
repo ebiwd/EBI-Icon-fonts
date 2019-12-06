@@ -18,7 +18,7 @@ deploy_aws_dev:
   script: 
     - bin/deploy-aws
   only: 
-    - branches
+    - v1.1
   except:
     - /-code$/
 

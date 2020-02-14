@@ -18,6 +18,7 @@
     url('EBI-Common/fonts/EBI-Common.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 /* Biological concepts and top-level icons (e.g. Services, Research, etc. */
 @font-face {
@@ -26,6 +27,7 @@
     url('EBI-Conceptual/fonts/EBI-Conceptual.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 /* Icons for commonly referenced species and orgamisms */
 @font-face {
@@ -34,6 +36,7 @@
     url('EBI-Species/fonts/EBI-Species.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 /* Specific file formats */
 @font-face {
@@ -42,6 +45,7 @@
     url('EBI-FileFormats/fonts/EBI-FileFormats.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 /* Chemistry font */
 @font-face {
@@ -50,6 +54,7 @@
     url('EBI-Chemistry/fonts/EBI-Chemistry.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 /* Generic, functional or activity-orientated icons */
@@ -62,6 +67,7 @@
     url('EBI-Functional/fonts/EBI-Functional.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 /* Generic icons that can be used as decoration or emphasis */
 /* !LEGACY! We recommend using EBI-Common
@@ -73,6 +79,7 @@
     url('EBI-Generic/fonts/EBI-Generic.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 /* Icons for social media */
 /* !LEGACY! We recommend using EBI-Common
@@ -84,6 +91,7 @@
     url('EBI-SocialMedia/fonts/EBI-SocialMedia.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 
